@@ -1,9 +1,0 @@
-id,email,password_hash,full_name,phone_number,role,created_at
-9d030974-90d8-4843-81e4-469a99093323,demo@shop.local,$2a$06$uL8VO0UqyUF7g2G6hDPkB.7tEUJsDqp8s5ItWzSpZOR.XxZ1DPIFu,Demo Shopper,+1-555-010-1234,user,2026-08-27 09:40:55.579270+00:00
-d15a43b4-b874-4798-94d6-a14b595e103a,admin@northline.shop,$2a$12$JC6yPLIvfjcL3mIaNVejsuB9QBkU6WM3JtSVH8ax/orwb4lOmSXmS,Platform Administrator,+1-555-010-9999,admin,2026-08-27 09:40:55.597860+00:00
-c392a12d-7a39-490e-92c8-339e0716ab32,test1@test.com,$2b$12$/IubSDDx.WLyToyX5EdOv.YcKIZErzAZgctVj7j2GiZR3wsmMXZYO,test1,1111111111,user,2026-08-27 09:46:55.667563+00:00
-1795738e-5349-462f-bb03-5cade99ea222,test2@test.com,$2b$12$Xwiaiph4yZGc./gMZbD8zO/5rfMsRj8twdbHYffZHHvQAVV6hXoZm,test2,1111111111,user,2026-08-27 09:49:33.028982+00:00
-56d1dbcf-5ddf-4d9c-bb52-fc83f1f85b46,test3@test.com,$2b$12$KraxDdNRFDywl/Shopp8I.E3NruLUbsn3/kfXUZn/figH6Cf.yMfC,test3,8929389234,user,2026-08-27 09:51:39.989339+00:00
-aa878b8d-a03b-4639-bba1-48b7b432243c,test4@test.com,$2b$12$nIIeYE4uT/1Llrm2AzpjKeDukvT4e0UFSBxpCQlfPyCnQjzb2j3f2,test4,2342345435,user,2026-08-27 09:55:25.908961+00:00
-331703b1-7058-440a-b89d-6a0856ea1489,test5@test.com,$2b$12$47ojnS.BLOncJMYZrx0b8OSHkp9fS44aoJGsVj5TzysQg2NpEwGwe,test5,8929389234,user,2026-08-27 09:59:14.888727+00:00
-02b02fd2-a7ab-405f-9338-baef9912407c,test6@test.com,$2b$12$vn8O4nVqxj5TDKUx2XIuHOGd5XQwxBVWMgsKDloA8DQjyiahSNDym,test6,1111111111,user,2026-08-27 10:01:19.816208+00:00
