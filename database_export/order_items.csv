@@ -1,0 +1,7 @@
+id,order_id,product_id,product_name,unit_price,quantity,line_total
+1,4af259da-3112-46f6-900f-43627f37f439,11,"MacBook Pro 16"" M3 Pro",2299.0,1,2299.0
+2,018af1e7-df7c-441b-8b1d-2a14727cd1ce,1,iPhone 15 Pro Max 256GB,1099.0,1,1099.0
+3,018af1e7-df7c-441b-8b1d-2a14727cd1ce,14,ASUS ROG Zephyrus G16,1899.0,1,1899.0
+4,018af1e7-df7c-441b-8b1d-2a14727cd1ce,16,Sony WH-1000XM5,349.0,1,349.0
+5,018af1e7-df7c-441b-8b1d-2a14727cd1ce,17,Apple AirPods Pro (2nd Gen),219.0,1,219.0
+6,018af1e7-df7c-441b-8b1d-2a14727cd1ce,24,Nike Pegasus 40 Running Shoe,130.0,1,130.0
