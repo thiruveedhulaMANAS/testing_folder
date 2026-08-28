@@ -1,3 +1,0 @@
-id,order_id,product_id,product_name,unit_price,quantity,line_total
-1,1ba7ec77-1bae-4bfa-9496-ad1dbba3a5a8,18,Bose QuietComfort 45,329.0,1,329.0
-2,1ba7ec77-1bae-4bfa-9496-ad1dbba3a5a8,22,Adidas Ultraboost 22,149.0,1,149.0
