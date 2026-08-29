@@ -1,0 +1,2 @@
+run_id,script_id,triggered_by,campaign_name,campaign_details,status,approval_status,attempt,aava_execution_id,aava_response,error,started_at,finished_at,approved_at,updated_at
+161336d0-a250-4da7-8e47-ee31013d20f8,marketing_agent,0907e2ef-d954-4172-82c9-be53d5a432a4,,,running,processing,1,,,,2026-08-29 20:06:54.099000+00:00,,,2026-08-29 20:06:54.100124+00:00
