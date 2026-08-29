@@ -1,0 +1,13 @@
+input mail_id: 
+
+test@test.com
+test1@test.com
+test2@test.com
+
+campaign_info:
+
+20% off on clothing
+
+
+personalization_data:
+test
