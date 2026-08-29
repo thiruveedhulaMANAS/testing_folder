@@ -1,2 +1,3 @@
 run_id,script_id,triggered_by,campaign_name,campaign_details,status,approval_status,attempt,error,started_at,finished_at,approved_at,updated_at
-570d9a93-8a12-4fda-9bde-e0d27911f85b,marketing_agent,e350e7ff-2ac6-4079-8628-b8fac2885fbc,,,running,processing,1,,2026-08-29 21:05:49.846000+00:00,,,2026-08-29 21:05:49.848918+00:00
+570d9a93-8a12-4fda-9bde-e0d27911f85b,marketing_agent,e350e7ff-2ac6-4079-8628-b8fac2885fbc,,,succeeded,approved,1,,2026-08-29 21:05:49.846000+00:00,2026-08-29 21:08:27.291000+00:00,2026-08-29 21:08:27.291000+00:00,2026-08-29 21:08:27.292340+00:00
+4679728d-efe6-4124-a2b9-bc6da2c090fb,marketing_agent,e350e7ff-2ac6-4079-8628-b8fac2885fbc,,,running,processing,1,,2026-08-29 21:09:49.480000+00:00,,,2026-08-29 21:09:49.480973+00:00
