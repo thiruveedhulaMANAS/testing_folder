@@ -1,0 +1,5 @@
+id,email,password_hash,full_name,phone_number,role,created_at
+d505583d-b125-444d-b513-15eac1eb7f86,demo@shop.local,$2a$06$uVWZKoqzT7jPlrbHhcgdSeFP0tIUhBqs1R53z0J3QuIE5foEFB8oi,Demo Shopper,+1-555-010-1234,user,2026-08-28 05:57:10.014035+00:00
+f4703cb3-4f05-41bd-ab1d-59635d37d065,admin@northline.shop,$2a$12$2DljYxBRzSk3R2bUrhRjn.HbydSLuzGLM5Dn0tvOOhcpHW.Nt0GSy,Platform Administrator,+1-555-010-9999,admin,2026-08-28 05:57:10.038716+00:00
+fff0737e-635d-4437-93f7-fac47bae45f7,test@test.com,$2b$12$xxPMyxAfd.HhUpcacjUtKu61BdCKfVWN0KTKlYUuXGv2GfRLABojO,test,2343242232,user,2026-08-28 06:39:02.086026+00:00
+38decb28-09f9-4a34-a6d5-7e68fc2a6554,test1@test.com,$2b$12$DfBa9M6PuPN.VlpdRNlEjeb.nH4h67ZKtwvmK9Z3JM6Y9U7FG35Ne,test1,1111111111,user,2026-08-28 06:46:47.852861+00:00
