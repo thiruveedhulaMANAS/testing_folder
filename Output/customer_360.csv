@@ -1,4 +1,4 @@
 customer_id,email,full_name,phone_number,role,signup_date,total_orders,total_spent,last_order_date,order_status_summary,ordered_products,cart_item_count,cart_contents,recent_product_views,data_quality_flags
-d7a6c3fc-8a34-421d-961d-60277348eec1,demo@shop.local,Demo Shopper,+1-555-010-1234,user,2026-08-30T18:28:33.460161+00:00,0,0.0,,,0,,,created_at|FUTURE_DATED
-e5e39212-0aa4-4a74-9e8d-fc63695c1a63,admin@northline.shop,Platform Administrator,+1-555-010-9999,admin,2026-08-30T18:28:33.481082+00:00,0,0.0,,,0,,,created_at|FUTURE_DATED;created_at|FUTURE_DATED;updated_at|FUTURE_DATED
-26ce9b8c-6188-4f7d-84a5-c8d2127aeb5a,test@test.com,test,+91 1111111111,user,2026-08-30T18:29:14.973853+00:00,1,59.4,2026-08-30T18:29:29.913838+00:00,completed,Converse Chuck Taylor All Star,0,,,created_at|FUTURE_DATED;created_at|FUTURE_DATED;created_at|FUTURE_DATED;updated_at|FUTURE_DATED
+fdaf7443-3ed4-4f66-a254-742e458b1542,demo@shop.local,Demo Shopper,+1-555-010-1234,user,2026-08-30T19:26:13.608958+00:00,0,0.00,,,,,,,created_at|FUTURE_DATED
+290946a1-1e8e-4fa8-aa2d-5e775bb58dff,admin@northline.shop,Platform Administrator,+1-555-010-9999,admin,2026-08-30T19:26:13.642253+00:00,0,0.00,,,,,,,created_at|FUTURE_DATED
+6402b123-0ece-43d3-9b5a-9e83c3e3a7d0,test@test.com,test,2342345435,user,2026-08-30T19:28:39.062284+00:00,1,236.52,2026-08-30T19:28:55.997883+00:00,completed,Apple AirPods Pro (2nd Gen),0,,,created_at|FUTURE_DATED;order_created_at|FUTURE_DATED;cart_created_at|FUTURE_DATED;cart_updated_at|FUTURE_DATED
