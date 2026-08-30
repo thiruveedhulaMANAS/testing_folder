@@ -1,3 +1,3 @@
 customer_id,primary_interest,likely_product,intent_level,evidence
-1c53ca25-c4ad-46d0-832d-d1e2635aadee,NONE,NONE,LOW,"[]"
-acdc6750-f37e-49af-9674-fec0b30de6f2,NONE,NONE,LOW,"[]"
+1c53ca25-c4ad-46d0-832d-d1e2635aadee,NONE,NONE,LOW,"No recent activity detected. Customer has 0 cart items, 0 product views, and 0 orders. Insufficient behavioral signals for intent scoring."
+acdc6750-f37e-49af-9674-fec0b30de6f2,NONE,NONE,LOW,"No recent activity detected. Customer has 0 cart items, 0 product views, and 0 orders. Insufficient behavioral signals for intent scoring."
