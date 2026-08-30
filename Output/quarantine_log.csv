@@ -1,2 +1,2 @@
 customer_id,source_file,parent_key,reason
-,,,"No orphaned or invalid records found during processing"
+,,,"No quarantined records - all data successfully processed"
