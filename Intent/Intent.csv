@@ -1,4 +1,4 @@
 customer_id,primary_interest,likely_product,intent_level,evidence
-62e7bdfa-6274-45b6-85af-89546d8d67e7,NONE,NONE,LOW,"[]"
-eeeeb9c2-99a4-457f-9ffe-ec3d0b684581,NONE,NONE,LOW,"[]"
-0e70ea63-382d-4393-a50f-750df382733f,Adidas Ultraboost 22,Adidas Ultraboost 22,LOW,"[{""event"":""purchase_completed"",""product"":""Adidas Ultraboost 22"",""timestamp"":""2026-08-30T17:48:17.229209+00:00""}]"
+fdaf7443-3ed4-4f66-a254-742e458b1542,NONE,NONE,LOW,"[]"
+290946a1-1e8e-4fa8-aa2d-5e775bb58dff,NONE,NONE,LOW,"[]"
+6402b123-0ece-43d3-9b5a-9e83c3e3a7d0,Consumer Electronics,Apple AirPods Pro (2nd Gen),LOW,"[{""event"":""purchase_completed"",""product"":""Apple AirPods Pro (2nd Gen)"",""timestamp"":""2026-08-30T19:28:55.997883+00:00"",""note"":""Historical purchase - no repeated recent activity detected for future intent""}]"
