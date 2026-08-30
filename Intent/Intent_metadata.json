@@ -1,52 +1,51 @@
 [
   {
-    "customer_id": "62e7bdfa-6274-45b6-85af-89546d8d67e7",
-    "processed_at": "2024-01-15T10:45:00Z",
+    "customer_id": "d7a6c3fc-8a34-421d-961d-60277348eec1",
+    "processed_at": "2024-12-19T14:30:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv -> Intent.csv",
-    "pii_redacted": true,
-    "encryption_applied": "AES-256",
-    "compliance_frameworks": ["SOC2", "ISO27001"],
-    "intent_analysis": {
-      "total_orders": 0,
-      "cart_items": 0,
+    "data_lineage": "customer_360.csv + carts.csv + audit_logs_product_views.csv -> Intent.csv",
+    "encryption_method": "AES-256",
+    "intent_scoring_method": "repeated_behavior_analysis",
+    "data_quality_flags": ["FUTURE_DATED", "NO_RECENT_ACTIVITY"],
+    "compliance_frameworks": ["SOC2", "ISO27001", "GDPR"],
+    "pii_redacted": ["email", "full_name", "phone_number"],
+    "activity_sources_analyzed": {
       "product_views": 0,
-      "repeated_actions": 0,
-      "intent_rationale": "No recent activity detected; assigned LOW intent per policy"
+      "cart_additions": 0,
+      "past_purchases_excluded": 0
     }
   },
   {
-    "customer_id": "eeeeb9c2-99a4-457f-9ffe-ec3d0b684581",
-    "processed_at": "2024-01-15T10:45:00Z",
+    "customer_id": "e5e39212-0aa4-4a74-9e8d-fc63695c1a63",
+    "processed_at": "2024-12-19T14:30:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv + carts.csv -> Intent.csv",
-    "pii_redacted": true,
-    "encryption_applied": "AES-256",
-    "compliance_frameworks": ["SOC2", "ISO27001"],
-    "intent_analysis": {
-      "total_orders": 0,
-      "cart_items": 0,
+    "data_lineage": "customer_360.csv + carts.csv + audit_logs_product_views.csv -> Intent.csv",
+    "encryption_method": "AES-256",
+    "intent_scoring_method": "repeated_behavior_analysis",
+    "data_quality_flags": ["FUTURE_DATED", "NO_RECENT_ACTIVITY"],
+    "compliance_frameworks": ["SOC2", "ISO27001", "GDPR"],
+    "pii_redacted": ["email", "full_name", "phone_number"],
+    "activity_sources_analyzed": {
       "product_views": 0,
-      "repeated_actions": 0,
-      "intent_rationale": "Empty cart detected; no product engagement; assigned LOW intent per policy",
-      "role_exclusion": "admin role excluded from promotional targeting"
+      "cart_additions": 0,
+      "past_purchases_excluded": 0
     }
   },
   {
-    "customer_id": "0e70ea63-382d-4393-a50f-750df382733f",
-    "processed_at": "2024-01-15T10:45:00Z",
+    "customer_id": "26ce9b8c-6188-4f7d-84a5-c8d2127aeb5a",
+    "processed_at": "2024-12-19T14:30:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv + carts.csv -> Intent.csv",
-    "pii_redacted": true,
-    "encryption_applied": "AES-256",
-    "compliance_frameworks": ["SOC2", "ISO27001"],
-    "intent_analysis": {
-      "total_orders": 1,
-      "cart_items": 0,
+    "data_lineage": "customer_360.csv + carts.csv + audit_logs_product_views.csv -> Intent.csv",
+    "encryption_method": "AES-256",
+    "intent_scoring_method": "repeated_behavior_analysis",
+    "data_quality_flags": ["FUTURE_DATED", "NO_RECENT_ACTIVITY"],
+    "compliance_frameworks": ["SOC2", "ISO27001", "GDPR"],
+    "pii_redacted": ["email", "full_name", "phone_number"],
+    "activity_sources_analyzed": {
       "product_views": 0,
-      "repeated_actions": 0,
-      "intent_rationale": "Purchase completed for Adidas Ultraboost 22; no repeated pre-purchase engagement detected (product views/cart additions empty); assigned LOW intent per policy (HIGH requires >=2 repeated recent actions for same item)",
-      "purchase_exclusion_note": "Purchase history excluded from intent scoring per instruction #4"
-    }
+      "cart_additions": 0,
+      "past_purchases_excluded": 1
+    },
+    "notes": "Customer has 1 past completed purchase (Converse Chuck Taylor All Star) excluded from intent scoring per compliance requirements"
   }
 ]
