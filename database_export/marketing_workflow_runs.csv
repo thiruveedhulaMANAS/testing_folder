@@ -1,3 +1,4 @@
 run_id,script_id,triggered_by,campaign_name,campaign_details,status,approval_status,attempt,error,started_at,finished_at,approved_at,updated_at
 db3216bf-fa42-46a9-bd38-e982c3c5c5a2,marketing_agent,699696e3-ebd4-450b-9ec8-85a76dad8667,,,failed,failed,1,GITHUB_PAT is not set. Add it to your .env (see .env.example).,2026-08-30 19:06:56.238000+00:00,2026-08-30 19:06:58.454000+00:00,,2026-08-30 19:06:58.455632+00:00
-1c93931a-5cbb-41aa-9c4d-4a0cf1d96d80,marketing_agent,699696e3-ebd4-450b-9ec8-85a76dad8667,,,running,processing,1,,2026-08-30 19:07:47.545000+00:00,,,2026-08-30 19:07:47.546171+00:00
+1c93931a-5cbb-41aa-9c4d-4a0cf1d96d80,marketing_agent,699696e3-ebd4-450b-9ec8-85a76dad8667,,,failed,failed,1,Expected AAVA input file not found: /app/scripts/marketing/input.txt,2026-08-30 19:07:47.545000+00:00,2026-08-30 19:08:15.789000+00:00,,2026-08-30 19:08:15.790390+00:00
+f884b1b1-c5c6-4d6b-a325-996d1639a300,marketing_agent,699696e3-ebd4-450b-9ec8-85a76dad8667,,,running,processing,1,,2026-08-30 19:09:28.309000+00:00,,,2026-08-30 19:09:28.309735+00:00
