@@ -1,33 +1,48 @@
 {
-  "customer_id": "62e7bdfa-6274-45b6-85af-89546d8d67e7",
+  "customer_id": "d7a6c3fc-8a34-421d-961d-60277348eec1",
   "email": {
     "email_address": "demo@shop.local",
-    "subject": "Save 15% on Sony WH-1000XM5 headphones",
-    "body": "Dear Demo Shopper,\n\nDiscover industry-leading noise cancellation with the Sony WH-1000XM5. Enjoy 15% off for the next 48 hours.\n\nOriginal price: $349.00\nYour price: $296.65\n\nThis offer is valid until 21-12-2024.\n\nShop Now\n\nThanks,\nDemo Shopper\n\nUnsubscribe here."
+    "subject": "Save 10% on Sony WH-1000XM5 premium audio",
+    "body": "Dear Demo Shopper,\n\nGet the Sony WH-1000XM5 with industry-leading noise cancellation for just $314.10. Save $84.90 with code WELCOME10-D7A6C3FC. Offer expires in 48 hours.\n\nThanks,\nDemo Shopper\n\nUnsubscribe here."
   },
   "whatsapp": {
     "phone_number": "+1-555-010-1234",
-    "message": "Hi Demo Shopper! Discover our top-rated Sony WH-1000XM5 headphones with 15% off. Now $296.65. Limited 48-hour offer. Shop now! Reply STOP to unsubscribe."
+    "message": "Hi Demo Shopper! Get Sony WH-1000XM5 for $314.10 (save $84.90). Code: WELCOME10-D7A6C3FC. Expires in 48h. Reply STOP to unsubscribe."
   },
   "push": {
-    "title": "15% off Sony WH-1000XM5",
-    "content": "Get Sony WH-1000XM5 for $296.65. Offer valid until 21-12-2024. Unsubscribe here."
+    "title": "10% off Sony WH-1000XM5",
+    "content": "Premium noise cancellation for $314.10. Save $84.90. Offer expires in 48 hours. Unsubscribe here."
   }
 }
-
 {
-  "customer_id": "0e70ea63-382d-4393-a50f-750df382733f",
+  "customer_id": "e5e39212-0aa4-4a74-9e8d-fc63695c1a63",
+  "email": {
+    "email_address": "admin@northline.shop",
+    "subject": "Save 12% on Apple AirPods Pro for professionals",
+    "body": "Dear Platform Administrator,\n\nGet Apple AirPods Pro (2nd Gen) with Adaptive Audio for just $192.72. Perfect for calls and productivity. Save $56.28 with code WELCOME12-E5E39212. Offer expires in 48 hours.\n\nThanks,\nPlatform Administrator\n\nUnsubscribe here."
+  },
+  "whatsapp": {
+    "phone_number": "+1-555-010-9999",
+    "message": "Hi Platform Administrator! Apple AirPods Pro (2nd Gen) for $192.72 (save $56.28). Code: WELCOME12-E5E39212. Expires in 48h. Reply STOP to unsubscribe."
+  },
+  "push": {
+    "title": "12% off Apple AirPods Pro",
+    "content": "Adaptive Audio for professionals at $192.72. Save $56.28. Offer expires in 48 hours. Unsubscribe here."
+  }
+}
+{
+  "customer_id": "26ce9b8c-6188-4f7d-84a5-c8d2127aeb5a",
   "email": {
     "email_address": "test@test.com",
-    "subject": "Complete your sneaker collection with 15% off",
-    "body": "Dear test,\n\nThanks for your recent Adidas Ultraboost 22 purchase. Complete your sneaker collection with the iconic Nike Air Force 1 '07 in classic white leather.\n\nEnjoy 15% off for the next 48 hours.\n\nOriginal price: $115.00\nYour price: $97.75\n\nThis offer is valid until 21-12-2024.\n\nView Offer\n\nThanks,\ntest\n\nUnsubscribe here."
+    "subject": "Complete your collection: 15% off Nike Air Force 1",
+    "body": "Dear test,\n\nLove your Converse Chuck Taylors? Add the iconic Nike Air Force 1 '07 to your collection for just $97.75. Save $17.25 with code CROSSSELL15-26CE9B8C. Offer expires in 72 hours.\n\nThanks,\ntest\n\nUnsubscribe here."
   },
   "whatsapp": {
     "phone_number": "+91 1111111111",
-    "message": "Hi test! Thanks for buying Adidas Ultraboost 22. Complete your collection with Nike Air Force 1 '07 at 15% off. Now $97.75. Offer ends 21-12-2024. Reply STOP to unsubscribe."
+    "message": "Hi test! Love your Converse? Get Nike Air Force 1 '07 for $97.75 (save $17.25). Code: CROSSSELL15-26CE9B8C. Expires in 72h. Reply STOP to unsubscribe."
   },
   "push": {
     "title": "15% off Nike Air Force 1",
-    "content": "Get Nike Air Force 1 '07 for $97.75. Complete your sneaker collection. Offer valid until 21-12-2024. Unsubscribe here."
+    "content": "Iconic sneakers for $97.75. Save $17.25. Offer expires in 72 hours. Unsubscribe here."
   }
 }
