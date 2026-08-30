@@ -1,48 +1,48 @@
 {
-  "customer_id": "d7a6c3fc-8a34-421d-961d-60277348eec1",
+  "customer_id": "fdaf7443-3ed4-4f66-a254-742e458b1542",
   "email": {
     "email_address": "demo@shop.local",
-    "subject": "Save 10% on Sony WH-1000XM5 premium audio",
-    "body": "Dear Demo Shopper,\n\nGet the Sony WH-1000XM5 with industry-leading noise cancellation for just $314.10. Save $84.90 with code WELCOME10-D7A6C3FC. Offer expires in 48 hours.\n\nThanks,\nDemo Shopper\n\nUnsubscribe here."
+    "subject": "Welcome! Exclusive 10% off premium audio",
+    "body": "Dear Demo Shopper,\n\nStart your journey with SONY WH-1000XM5 - industry-leading noise cancellation with 30-hour battery. Save $39.90 (10% off) for 72 hours only.\n\nOriginal price: $399.00\nYour price: $359.10\n\nShop Now\n\nThanks,\nDemo Shopper\n\nUnsubscribe here."
   },
   "whatsapp": {
     "phone_number": "+1-555-010-1234",
-    "message": "Hi Demo Shopper! Get Sony WH-1000XM5 for $314.10 (save $84.90). Code: WELCOME10-D7A6C3FC. Expires in 48h. Reply STOP to unsubscribe."
+    "message": "Hi Demo Shopper! Welcome offer: SONY WH-1000XM5 at $359.10 (10% off). Save $39.90 for 72 hours. Shop now. Reply STOP to unsubscribe."
   },
   "push": {
-    "title": "10% off Sony WH-1000XM5",
-    "content": "Premium noise cancellation for $314.10. Save $84.90. Offer expires in 48 hours. Unsubscribe here."
+    "title": "10% off SONY WH-1000XM5",
+    "content": "Premium noise cancellation headphones. Save $39.90 for 72 hours. Unsubscribe here."
   }
 }
 {
-  "customer_id": "e5e39212-0aa4-4a74-9e8d-fc63695c1a63",
+  "customer_id": "290946a1-1e8e-4fa8-aa2d-5e775bb58dff",
   "email": {
     "email_address": "admin@northline.shop",
-    "subject": "Save 12% on Apple AirPods Pro for professionals",
-    "body": "Dear Platform Administrator,\n\nGet Apple AirPods Pro (2nd Gen) with Adaptive Audio for just $192.72. Perfect for calls and productivity. Save $56.28 with code WELCOME12-E5E39212. Offer expires in 48 hours.\n\nThanks,\nPlatform Administrator\n\nUnsubscribe here."
+    "subject": "Welcome! Exclusive 10% off Apple AirPods Pro",
+    "body": "Dear Platform Administrator,\n\nDiscover adaptive audio with APPLE AIRPODS PRO (2nd Gen) with USB-C charging case. Save $24.90 (10% off) for 72 hours only.\n\nOriginal price: $249.00\nYour price: $224.10\n\nShop Now\n\nThanks,\nPlatform Administrator\n\nUnsubscribe here."
   },
   "whatsapp": {
     "phone_number": "+1-555-010-9999",
-    "message": "Hi Platform Administrator! Apple AirPods Pro (2nd Gen) for $192.72 (save $56.28). Code: WELCOME12-E5E39212. Expires in 48h. Reply STOP to unsubscribe."
+    "message": "Hi Platform Administrator! Welcome offer: APPLE AIRPODS PRO (2nd Gen) at $224.10 (10% off). Save $24.90 for 72 hours. Shop now. Reply STOP to unsubscribe."
   },
   "push": {
-    "title": "12% off Apple AirPods Pro",
-    "content": "Adaptive Audio for professionals at $192.72. Save $56.28. Offer expires in 48 hours. Unsubscribe here."
+    "title": "10% off Apple AirPods Pro",
+    "content": "Adaptive audio with USB-C. Save $24.90 for 72 hours. Unsubscribe here."
   }
 }
 {
-  "customer_id": "26ce9b8c-6188-4f7d-84a5-c8d2127aeb5a",
+  "customer_id": "6402b123-0ece-43d3-9b5a-9e83c3e3a7d0",
   "email": {
     "email_address": "test@test.com",
-    "subject": "Complete your collection: 15% off Nike Air Force 1",
-    "body": "Dear test,\n\nLove your Converse Chuck Taylors? Add the iconic Nike Air Force 1 '07 to your collection for just $97.75. Save $17.25 with code CROSSSELL15-26CE9B8C. Offer expires in 72 hours.\n\nThanks,\ntest\n\nUnsubscribe here."
+    "subject": "Complete your audio setup - 10% off SONY WH-1000XM5",
+    "body": "Dear test,\n\nYou loved your APPLE AIRPODS PRO. Now upgrade to SONY WH-1000XM5 over-ear headphones for home and travel. Save $39.90 (10% off) for 48 hours.\n\nOriginal price: $399.00\nYour price: $359.10\n\nComplete Your Setup\n\nThanks,\ntest\n\nUnsubscribe here."
   },
   "whatsapp": {
-    "phone_number": "+91 1111111111",
-    "message": "Hi test! Love your Converse? Get Nike Air Force 1 '07 for $97.75 (save $17.25). Code: CROSSSELL15-26CE9B8C. Expires in 72h. Reply STOP to unsubscribe."
+    "phone_number": "2342345435",
+    "message": "Hi test! Complement your AirPods Pro with SONY WH-1000XM5 over-ear headphones at $359.10 (10% off). Save $39.90 for 48 hours. Complete your setup. Reply STOP to unsubscribe."
   },
   "push": {
-    "title": "15% off Nike Air Force 1",
-    "content": "Iconic sneakers for $97.75. Save $17.25. Offer expires in 72 hours. Unsubscribe here."
+    "title": "10% off SONY WH-1000XM5",
+    "content": "Complement your AirPods Pro with over-ear audio. Save $39.90 for 48 hours. Unsubscribe here."
   }
 }
