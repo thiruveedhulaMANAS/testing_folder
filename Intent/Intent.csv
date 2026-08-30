@@ -1,4 +1,4 @@
 customer_id,primary_interest,likely_product,intent_level,evidence
-9580a5a5-a3ce-46f4-8d52-df09b2f64bf7,None,None,LOW,[]
-f665d18c-f6cd-4585-8df9-a48ad033b57b,None,None,LOW,[]
-3ec393bf-d116-439d-8ebe-5bce06825727,Dell XPS 15 (Intel i7; RTX 4060),Dell XPS 15 (Intel i7; RTX 4060),HIGH,"[{""event"":""view"",""product"":""Dell XPS 15 (Intel i7, RTX 4060)"",""timestamp"":""2026-08-30T20:05:42.225413Z"",""product_id"":12},{""event"":""add_to_cart"",""product"":""Dell XPS 15 (Intel i7, RTX 4060)"",""timestamp"":""2026-08-30T20:05:43.280535Z"",""product_id"":12}]"
+bd0aa5aa-0aa4-4e99-80b3-051238b77794,NONE,NONE,LOW,"[]"
+8f357db5-f672-44fd-a66a-404eec0754b4,NONE,NONE,LOW,"[]"
+b07ebee4-07f9-4ad3-aa3a-8a49b1e81011,Essential Crewneck Tee,Essential Crewneck Tee,HIGH,"[{""event"":""PRODUCT_VIEW"",""product"":""Essential Crewneck Tee"",""product_id"":7,""timestamp"":""2026-08-30T21:04:53.747673+00:00"",""dwell_time_ms"":null},{""event"":""ADD_TO_CART"",""product"":""Essential Crewneck Tee"",""product_id"":7,""timestamp"":""2026-08-30T21:04:54.698755+00:00"",""quantity"":1},{""event"":""PRODUCT_VIEW"",""product"":""Essential Crewneck Tee"",""product_id"":7,""timestamp"":""2026-08-30T21:04:56.662340+00:00"",""dwell_time_ms"":2829}]"
