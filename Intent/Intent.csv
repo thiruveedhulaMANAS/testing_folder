@@ -1,4 +1,4 @@
 customer_id,primary_interest,likely_product,intent_level,evidence
-98a3901d-3f18-4ba6-90e0-6b9f50e04074,None,None,LOW,"[]"
-3858ac30-4500-45bd-8009-af2cde079b53,None,None,LOW,"[]"
-af0c05c2-a1ca-46cf-839d-9eb75ccecd4b,None,None,LOW,"[]"
+98a3901d-3f18-4ba6-90e0-6b9f50e04074,NONE,NONE,LOW,"[]"
+3858ac30-4500-45bd-8009-af2cde079b53,NONE,NONE,LOW,"[]"
+af0c05c2-a1ca-46cf-839d-9eb75ccecd4b,Adidas Ultraboost 22,Adidas Ultraboost 22,LOW,"[{""event"":""completed_purchase"",""product"":""Adidas Ultraboost 22"",""timestamp"":""2026-08-30T17:02:14.282261+00:00""}]"
