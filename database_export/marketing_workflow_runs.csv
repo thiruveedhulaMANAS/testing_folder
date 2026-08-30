@@ -1,2 +1,2 @@
 run_id,script_id,triggered_by,campaign_name,campaign_details,status,approval_status,attempt,error,started_at,finished_at,approved_at,updated_at
-2c7afee4-efa0-4b8c-a7d3-6597581e8162,marketing_agent,eeeeb9c2-99a4-457f-9ffe-ec3d0b684581,summer engagement,give 20% discount in all products.,running,processing,1,,2026-08-30 17:48:49.850000+00:00,,,2026-08-30 17:48:49.851207+00:00
+9b619fed-1383-4ed1-8cf9-bf1bf964dbcd,marketing_agent,e5e39212-0aa4-4a74-9e8d-fc63695c1a63,summer engagement,,running,processing,1,,2026-08-30 18:29:52.769000+00:00,,,2026-08-30 18:29:52.770851+00:00
