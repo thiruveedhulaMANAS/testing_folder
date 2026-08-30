@@ -1,3 +1,4 @@
 run_id,script_id,triggered_by,campaign_name,campaign_details,status,approval_status,attempt,error,started_at,finished_at,approved_at,updated_at
 b686b750-d128-46b6-bd86-131fe04faf59,marketing_agent,8f357db5-f672-44fd-a66a-404eec0754b4,,,failed,failed,1,GITHUB_PAT is not set. Add it to your .env (see .env.example).,2026-08-30 21:05:14.440000+00:00,2026-08-30 21:05:17.594000+00:00,,2026-08-30 21:05:17.595924+00:00
-02213f18-bf08-4407-8a9a-468a5cc25778,marketing_agent,8f357db5-f672-44fd-a66a-404eec0754b4,,,running,processing,1,,2026-08-30 21:06:48.937000+00:00,,,2026-08-30 21:06:48.938332+00:00
+02213f18-bf08-4407-8a9a-468a5cc25778,marketing_agent,8f357db5-f672-44fd-a66a-404eec0754b4,,,succeeded,approved,1,,2026-08-30 21:06:48.937000+00:00,2026-08-30 21:18:48.894000+00:00,2026-08-30 21:18:40.014000+00:00,2026-08-30 21:18:48.896281+00:00
+ee80bd3c-4222-461b-898c-cf331d83efd9,marketing_agent,8f357db5-f672-44fd-a66a-404eec0754b4,summer engagement,give 20% discount on all products.,running,processing,1,,2026-08-30 21:23:45.917000+00:00,,,2026-08-30 21:23:45.919062+00:00
