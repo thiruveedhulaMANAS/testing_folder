@@ -1,3 +1,3 @@
 run_id,script_id,triggered_by,campaign_name,campaign_details,status,approval_status,attempt,error,started_at,finished_at,approved_at,updated_at
-dad9b8c1-c8d5-4d5f-9664-30fd401f7a97,marketing_agent,f665d18c-f6cd-4585-8df9-a48ad033b57b,,,running,processing,1,,2026-08-30 20:05:56.815000+00:00,,,2026-08-30 20:05:56.815744+00:00
-e5b6fb27-531a-4776-b9f2-fe0e8c20445f,marketing_agent,f665d18c-f6cd-4585-8df9-a48ad033b57b,,,running,processing,1,,2026-08-30 20:27:55.091000+00:00,,,2026-08-30 20:27:55.095340+00:00
+b686b750-d128-46b6-bd86-131fe04faf59,marketing_agent,8f357db5-f672-44fd-a66a-404eec0754b4,,,failed,failed,1,GITHUB_PAT is not set. Add it to your .env (see .env.example).,2026-08-30 21:05:14.440000+00:00,2026-08-30 21:05:17.594000+00:00,,2026-08-30 21:05:17.595924+00:00
+02213f18-bf08-4407-8a9a-468a5cc25778,marketing_agent,8f357db5-f672-44fd-a66a-404eec0754b4,,,running,processing,1,,2026-08-30 21:06:48.937000+00:00,,,2026-08-30 21:06:48.938332+00:00
