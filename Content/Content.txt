@@ -3,32 +3,24 @@
     "customer_id": "1c53ca25-c4ad-46d0-832d-d1e2635aadee",
     "email": {
       "email_address": "demo@shop.local",
-      "subject": "Save 10% on Sony WH-1000XM5 headphones",
-      "body": "Dear Demo Shopper,\n\nDiscover premium sound with the Sony WH-1000XM5 featuring industry-leading noise cancellation and 30-hour battery life. Enjoy 10% off—now $314.10 (regularly $349.00). Offer expires in 72 hours.\n\nShop Now\n\nUnsubscribe here."
+      "subject": "Save 15% on Sony WH-1000XM5 headphones",
+      "body": "Dear Demo Shopper,\n\nDiscover the Sony WH-1000XM5 with industry-leading noise cancellation and 30-hour battery life. As a new customer, enjoy 15% off - just $296.65 (save $52.35).\n\nOffer valid until January 18, 2024.\n\nShop now,\nDemo Shopper\n\nUnsubscribe here."
     },
-    "whatsapp": {
-      "phone_number": "+1-555-010-1234",
-      "message": "Hi Demo Shopper! Get 10% off Sony WH-1000XM5 headphones—now $314.10. Premium noise cancellation & 30-hour battery. Offer ends in 72 hours. Reply STOP to unsubscribe."
-    }
-  },
-  {
-    "customer_id": "acdc6750-f37e-49af-9674-fec0b30de6f2",
-    "email": {
-      "email_address": "admin@northline.shop",
-      "subject": "Essential Crewneck Tee now 5% off",
-      "body": "Dear Platform Administrator,\n\nOur Essential Crewneck Tee is now available at 5% off—just $22.80 (regularly $24.00). Heavyweight 100% cotton, unisex regular fit, pre-shrunk. Offer expires in 48 hours.\n\nView Offer\n\nUnsubscribe here."
+    "push": {
+      "title": "15% off Sony WH-1000XM5",
+      "content": "Premium noise cancellation at $296.65. Save $52.35. Offer ends January 18. Unsubscribe here."
     }
   },
   {
     "customer_id": "fa55184e-0c59-429c-bb00-6b71ab86896e",
     "email": {
       "email_address": "test@test.com",
-      "subject": "Complete your Apple ecosystem: iPhone 15 Pro Max",
-      "body": "Dear test,\n\nPair your Apple AirPods Pro with the iPhone 15 Pro Max 256GB. Apple's titanium flagship with A17 Pro chip and 5x telephoto camera. Save 8%—now $1,011.08 (regularly $1,099.00). Offer expires in 96 hours.\n\nClaim Discount\n\nUnsubscribe here."
+      "subject": "Complete your audio collection with Sony WH-1000XM5",
+      "body": "Dear test,\n\nYou loved your Apple AirPods Pro. Now experience the Sony WH-1000XM5 over-ear headphones with industry-leading noise cancellation - perfect for home and office.\n\nExclusive 10% off for you: $314.10 (save $34.90).\n\nOffer valid until January 17, 2024.\n\nView offer,\ntest\n\nUnsubscribe here."
     },
-    "push": {
-      "title": "iPhone 15 Pro Max: 8% off",
-      "content": "Complete your Apple ecosystem. iPhone 15 Pro Max now $1,011.08. Offer ends in 96 hours. Unsubscribe here."
+    "whatsapp": {
+      "phone_number": "2342345435",
+      "message": "Hi test! Complete your audio setup with Sony WH-1000XM5 headphones at $314.10 (10% off). Pairs perfectly with your AirPods Pro. Offer ends Jan 17. Reply STOP to unsubscribe."
     }
   }
 ]
