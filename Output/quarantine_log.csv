@@ -1,4 +1,5 @@
 customer_id,source_file,parent_key,reason
-,audit_logs_product_views.csv,18,MISSING_FIELD:user_id
-,audit_logs_product_views.csv,25,MISSING_FIELD:user_id
-,audit_logs_product_views.csv,32,MISSING_FIELD:user_id
+,audit_logs_product_views.csv,18,MISSING_USER_ID
+,audit_logs_product_views.csv,25,MISSING_USER_ID
+,audit_logs_product_views.csv,32,MISSING_USER_ID
+,audit_logs_product_views.csv,29,MISSING_USER_ID
