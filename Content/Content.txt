@@ -1,24 +1,12 @@
 {
-  "customer_id": "bd0aa5aa-0aa4-4e99-80b3-051238b77794",
-  "email": {
-    "email_address": "demo@shop.local",
-    "subject": "Save 15% on iPhone SE (3rd Gen) 128GB",
-    "body": "Dear Demo Shopper,\n\nStart your journey with us! Get the iPhone SE (3rd Gen) 128GB with A15 Bionic chip and Touch ID for just $322.15 (was $379.00). Enjoy 15% off this compact 4.7\" iPhone.\n\nOffer valid for 72 hours only.\n\nShop now and save.\n\nThanks,\nDemo Shopper\n\nUnsubscribe here."
-  },
-  "push": {
-    "title": "15% off iPhone SE",
-    "content": "Get iPhone SE (3rd Gen) for $322.15. Save 15% now. Offer ends in 72 hours. Unsubscribe here."
-  }
-}
-{
   "customer_id": "b07ebee4-07f9-4ad3-aa3a-8a49b1e81011",
   "email": {
     "email_address": "test@test.com",
-    "subject": "Complete your look: 15% off Adidas Ultraboost 22",
-    "body": "Dear test,\n\nYou viewed the Adidas Ultraboost 22 - now it's 15% off! Get this responsive Boost midsole with Primeknit upper for all-day comfort at just $126.65 (was $149.00).\n\nPerfect to pair with your Essential Crewneck Tee. Offer valid for 48 hours.\n\nClaim your discount today.\n\nThanks,\ntest\n\nUnsubscribe here."
+    "subject": "Complete your wardrobe with 20% off",
+    "body": "Dear test,\n\nWe noticed you loved the Essential Crewneck Tee. Complete your wardrobe with the Fleece Pullover Hoodie - a perfect match for your style.\n\nGet 20% off now - just $35.20 (regular $55.00). This offer is valid for 48 hours only.\n\nShop now and save.\n\nThanks,\ntest\n\nUnsubscribe here."
   },
-  "whatsapp": {
-    "phone_number": "+91 1111111111",
-    "message": "Hi test! Complete your look with Adidas Ultraboost 22 at $126.65 (15% off, was $149.00). Pairs perfectly with your Essential Crewneck Tee. Offer ends in 48 hours. Reply STOP to unsubscribe."
+  "push": {
+    "title": "20% off Fleece Pullover Hoodie",
+    "content": "Complete your wardrobe. Get the Fleece Pullover Hoodie for $35.20. Offer valid for 48 hours. Unsubscribe here."
   }
 }
