@@ -1,51 +1,35 @@
 [
   {
-    "customer_id": "d7a6c3fc-8a34-421d-961d-60277348eec1",
-    "processed_at": "2024-12-19T14:30:00Z",
+    "customer_id": "fdaf7443-3ed4-4f66-a254-742e458b1542",
+    "processed_at": "2024-01-15T14:45:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv + carts.csv + audit_logs_product_views.csv -> Intent.csv",
-    "encryption_method": "AES-256",
-    "intent_scoring_method": "repeated_behavior_analysis",
-    "data_quality_flags": ["FUTURE_DATED", "NO_RECENT_ACTIVITY"],
-    "compliance_frameworks": ["SOC2", "ISO27001", "GDPR"],
-    "pii_redacted": ["email", "full_name", "phone_number"],
-    "activity_sources_analyzed": {
-      "product_views": 0,
-      "cart_additions": 0,
-      "past_purchases_excluded": 0
-    }
+    "data_lineage": "customer_360.csv + audit_logs_product_views.csv + carts.csv -> Intent.csv",
+    "pii_redaction": "email, full_name, phone_number excluded from output",
+    "encryption_standard": "AES-256",
+    "intent_scoring_method": "Repeated behavioral evidence analysis (≥2 actions required for HIGH)",
+    "data_quality_flags": "FUTURE_DATED timestamp detected",
+    "audit_trail": "No repeated recent activity detected; LOW intent assigned per compliance policy"
   },
   {
-    "customer_id": "e5e39212-0aa4-4a74-9e8d-fc63695c1a63",
-    "processed_at": "2024-12-19T14:30:00Z",
+    "customer_id": "290946a1-1e8e-4fa8-aa2d-5e775bb58dff",
+    "processed_at": "2024-01-15T14:45:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv + carts.csv + audit_logs_product_views.csv -> Intent.csv",
-    "encryption_method": "AES-256",
-    "intent_scoring_method": "repeated_behavior_analysis",
-    "data_quality_flags": ["FUTURE_DATED", "NO_RECENT_ACTIVITY"],
-    "compliance_frameworks": ["SOC2", "ISO27001", "GDPR"],
-    "pii_redacted": ["email", "full_name", "phone_number"],
-    "activity_sources_analyzed": {
-      "product_views": 0,
-      "cart_additions": 0,
-      "past_purchases_excluded": 0
-    }
+    "data_lineage": "customer_360.csv + audit_logs_product_views.csv + carts.csv -> Intent.csv",
+    "pii_redaction": "email, full_name, phone_number excluded from output",
+    "encryption_standard": "AES-256",
+    "intent_scoring_method": "Repeated behavioral evidence analysis (≥2 actions required for HIGH)",
+    "data_quality_flags": "FUTURE_DATED timestamp detected; cart exists but cart_items.csv empty",
+    "audit_trail": "No behavioral activity detected; LOW intent assigned per compliance policy"
   },
   {
-    "customer_id": "26ce9b8c-6188-4f7d-84a5-c8d2127aeb5a",
-    "processed_at": "2024-12-19T14:30:00Z",
+    "customer_id": "6402b123-0ece-43d3-9b5a-9e83c3e3a7d0",
+    "processed_at": "2024-01-15T14:45:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv + carts.csv + audit_logs_product_views.csv -> Intent.csv",
-    "encryption_method": "AES-256",
-    "intent_scoring_method": "repeated_behavior_analysis",
-    "data_quality_flags": ["FUTURE_DATED", "NO_RECENT_ACTIVITY"],
-    "compliance_frameworks": ["SOC2", "ISO27001", "GDPR"],
-    "pii_redacted": ["email", "full_name", "phone_number"],
-    "activity_sources_analyzed": {
-      "product_views": 0,
-      "cart_additions": 0,
-      "past_purchases_excluded": 1
-    },
-    "notes": "Customer has 1 past completed purchase (Converse Chuck Taylor All Star) excluded from intent scoring per compliance requirements"
+    "data_lineage": "customer_360.csv + orders.csv + audit_logs_product_views.csv + carts.csv -> Intent.csv",
+    "pii_redaction": "email, full_name, phone_number excluded from output",
+    "encryption_standard": "AES-256",
+    "intent_scoring_method": "Repeated behavioral evidence analysis (≥2 actions required for HIGH)",
+    "data_quality_flags": "FUTURE_DATED timestamps detected (created_at, order_created_at, cart_created_at, cart_updated_at)",
+    "audit_trail": "1 completed purchase found (Apple AirPods Pro 2nd Gen, $236.52); purchase history excluded from intent scoring per requirements; no repeated recent activity for future purchases detected; LOW intent assigned"
   }
 ]
