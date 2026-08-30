@@ -1,2 +1,3 @@
 customer_id,source_file,parent_key,reason
-,,,"No quarantined records - all data successfully processed"
+,,cart_items.csv,NO_DATA_ROWS
+,,audit_logs_product_views.csv,NO_DATA_ROWS
