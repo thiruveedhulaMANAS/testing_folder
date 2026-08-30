@@ -1,0 +1,32 @@
+[
+  {
+    "customer_id": "1c53ca25-c4ad-46d0-832d-d1e2635aadee",
+    "processed_at": "2024-06-03T12:00:00Z",
+    "consent_status": "active",
+    "data_lineage": "customer_360.csv,carts.csv,audit_logs_product_views.csv -> Intent.csv",
+    "encryption_method": "AES-256",
+    "pii_handling": "excluded_from_output",
+    "compliance_standards": "SOC2,ISO27001,GDPR",
+    "intent_scoring_method": "behavioral_analysis_repeated_actions",
+    "activity_sources_checked": ["product_views", "cart_additions", "engagement_events"],
+    "activity_records_found": 0,
+    "intent_rationale": "Zero recent activity detected across all behavioral sources. No product views, cart additions, or engagement events found. Intent level LOW assigned per policy: HIGH intent requires >=2 repeated actions for same item.",
+    "data_quality_flags": "none",
+    "audit_trail": "All PII fields (email, full_name, phone_number) excluded from intent output. Only pseudonymized customer_id included. Data minimization principle applied per GDPR Article 5(1)(c)."
+  },
+  {
+    "customer_id": "acdc6750-f37e-49af-9674-fec0b30de6f2",
+    "processed_at": "2024-06-03T12:00:00Z",
+    "consent_status": "active",
+    "data_lineage": "customer_360.csv,carts.csv,audit_logs_product_views.csv -> Intent.csv",
+    "encryption_method": "AES-256",
+    "pii_handling": "excluded_from_output",
+    "compliance_standards": "SOC2,ISO27001,GDPR",
+    "intent_scoring_method": "behavioral_analysis_repeated_actions",
+    "activity_sources_checked": ["product_views", "cart_additions", "engagement_events"],
+    "activity_records_found": 0,
+    "intent_rationale": "Zero recent activity detected across all behavioral sources. No product views, cart additions, or engagement events found. Intent level LOW assigned per policy: HIGH intent requires >=2 repeated actions for same item.",
+    "data_quality_flags": "none",
+    "audit_trail": "All PII fields (email, full_name, phone_number) excluded from intent output. Only pseudonymized customer_id included. Data minimization principle applied per GDPR Article 5(1)(c). Customer role: admin - monitoring for compliance purposes only."
+  }
+]
