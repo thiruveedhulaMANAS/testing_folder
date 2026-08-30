@@ -1,32 +1,33 @@
 {
-  "customer_id": "98a3901d-3f18-4ba6-90e0-6b9f50e04074",
+  "customer_id": "62e7bdfa-6274-45b6-85af-89546d8d67e7",
   "email": {
     "email_address": "demo@shop.local",
-    "subject": "Save 15% on Sony WH-1000XM5",
-    "body": "Dear Demo Shopper,\n\nDiscover premium audio with the Sony WH-1000XM5. Enjoy 15% off now at $339.15. Offer valid until January 18.\n\nThanks, Demo Shopper\n\nUnsubscribe here."
+    "subject": "Save 15% on Sony WH-1000XM5 headphones",
+    "body": "Dear Demo Shopper,\n\nDiscover industry-leading noise cancellation with the Sony WH-1000XM5. Enjoy 15% off for the next 48 hours.\n\nOriginal price: $349.00\nYour price: $296.65\n\nThis offer is valid until 21-12-2024.\n\nShop Now\n\nThanks,\nDemo Shopper\n\nUnsubscribe here."
   },
   "whatsapp": {
     "phone_number": "+1-555-010-1234",
-    "message": "Hi Demo Shopper! Sony WH-1000XM5 now at $339.15 with 15% off. Offer ends January 18. Reply STOP to unsubscribe."
+    "message": "Hi Demo Shopper! Discover our top-rated Sony WH-1000XM5 headphones with 15% off. Now $296.65. Limited 48-hour offer. Shop now! Reply STOP to unsubscribe."
   },
   "push": {
     "title": "15% off Sony WH-1000XM5",
-    "content": "Get Sony WH-1000XM5 for $339.15. Offer valid until January 18. Unsubscribe here."
+    "content": "Get Sony WH-1000XM5 for $296.65. Offer valid until 21-12-2024. Unsubscribe here."
   }
 }
+
 {
-  "customer_id": "af0c05c2-a1ca-46cf-839d-9eb75ccecd4b",
+  "customer_id": "0e70ea63-382d-4393-a50f-750df382733f",
   "email": {
     "email_address": "test@test.com",
-    "subject": "Save 15% on Nike Air Force 1 '07",
-    "body": "Dear test,\n\nComplete your collection with Nike Air Force 1 '07. Enjoy 15% off now at $97.75. Offer valid until January 17.\n\nThanks, test\n\nUnsubscribe here."
+    "subject": "Complete your sneaker collection with 15% off",
+    "body": "Dear test,\n\nThanks for your recent Adidas Ultraboost 22 purchase. Complete your sneaker collection with the iconic Nike Air Force 1 '07 in classic white leather.\n\nEnjoy 15% off for the next 48 hours.\n\nOriginal price: $115.00\nYour price: $97.75\n\nThis offer is valid until 21-12-2024.\n\nView Offer\n\nThanks,\ntest\n\nUnsubscribe here."
   },
   "whatsapp": {
     "phone_number": "+91 1111111111",
-    "message": "Hi test! Nike Air Force 1 '07 now at $97.75 with 15% off. Offer ends January 17. Reply STOP to unsubscribe."
+    "message": "Hi test! Thanks for buying Adidas Ultraboost 22. Complete your collection with Nike Air Force 1 '07 at 15% off. Now $97.75. Offer ends 21-12-2024. Reply STOP to unsubscribe."
   },
   "push": {
-    "title": "15% off Nike Air Force 1 '07",
-    "content": "Get Nike Air Force 1 '07 for $97.75. Offer valid until January 17. Unsubscribe here."
+    "title": "15% off Nike Air Force 1",
+    "content": "Get Nike Air Force 1 '07 for $97.75. Complete your sneaker collection. Offer valid until 21-12-2024. Unsubscribe here."
   }
 }
