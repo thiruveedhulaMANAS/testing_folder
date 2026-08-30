@@ -2,24 +2,31 @@
   "customer_id": "98a3901d-3f18-4ba6-90e0-6b9f50e04074",
   "email": {
     "email_address": "demo@shop.local",
-    "subject": "Save 15% on Essential Crewneck Tee",
-    "body": "Dear Demo Shopper,\n\nWelcome to your first purchase! Get 15% off Essential Crewneck Tee, now just $20.40 (save $3.60). This heavyweight 100% cotton tee is perfect for everyday wear.\n\nOffer expires in 48 hours.\n\nThanks,\nDemo Shopper\n\nUnsubscribe here."
+    "subject": "Save 15% on Sony WH-1000XM5",
+    "body": "Dear Demo Shopper,\n\nDiscover premium audio with the Sony WH-1000XM5. Enjoy 15% off now at $339.15. Offer valid until January 18.\n\nThanks, Demo Shopper\n\nUnsubscribe here."
+  },
+  "whatsapp": {
+    "phone_number": "+1-555-010-1234",
+    "message": "Hi Demo Shopper! Sony WH-1000XM5 now at $339.15 with 15% off. Offer ends January 18. Reply STOP to unsubscribe."
+  },
+  "push": {
+    "title": "15% off Sony WH-1000XM5",
+    "content": "Get Sony WH-1000XM5 for $339.15. Offer valid until January 18. Unsubscribe here."
   }
 }
-
 {
   "customer_id": "af0c05c2-a1ca-46cf-839d-9eb75ccecd4b",
   "email": {
     "email_address": "test@test.com",
-    "subject": "Complete your running rotation: 12% off Nike Pegasus 40",
-    "body": "Dear test,\n\nComplete your running shoe rotation! Get 12% off Nike Pegasus 40 Running Shoe to complement your Adidas Ultraboost 22. Now $114.40 (save $15.60). Responsive React foam cushioning designed for daily training miles.\n\nOffer expires in 72 hours.\n\nThanks,\ntest\n\nUnsubscribe here."
+    "subject": "Save 15% on Nike Air Force 1 '07",
+    "body": "Dear test,\n\nComplete your collection with Nike Air Force 1 '07. Enjoy 15% off now at $97.75. Offer valid until January 17.\n\nThanks, test\n\nUnsubscribe here."
   },
   "whatsapp": {
     "phone_number": "+91 1111111111",
-    "message": "Hi test! Complete your running shoe rotation with Nike Pegasus 40 at 12% off - now $114.40. Pairs perfectly with your Adidas Ultraboost 22. Offer expires in 72 hours. Reply STOP to unsubscribe."
+    "message": "Hi test! Nike Air Force 1 '07 now at $97.75 with 15% off. Offer ends January 17. Reply STOP to unsubscribe."
   },
   "push": {
-    "title": "12% off Nike Pegasus 40",
-    "content": "Complete your running rotation! Nike Pegasus 40 now $114.40. Offer expires in 72 hours. Unsubscribe here."
+    "title": "15% off Nike Air Force 1 '07",
+    "content": "Get Nike Air Force 1 '07 for $97.75. Offer valid until January 17. Unsubscribe here."
   }
 }
