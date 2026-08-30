@@ -1,1 +1,3 @@
 customer_id,source_file,parent_key,reason
+,,audit_logs_product_views.csv,EMPTY_FILE_NO_DATA_ROWS
+,,cart_items.csv,EMPTY_FILE_NO_DATA_ROWS
