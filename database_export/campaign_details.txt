@@ -4,4 +4,4 @@ CAMPAIGN NAME
 
 CAMPAIGN DETAILS
 ================
-customer mail id of input.txt for sending out the email
+
