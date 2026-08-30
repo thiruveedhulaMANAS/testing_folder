@@ -1,35 +1,55 @@
 [
   {
-    "customer_id": "fdaf7443-3ed4-4f66-a254-742e458b1542",
-    "processed_at": "2024-01-15T14:45:00Z",
+    "customer_id": "9580a5a5-a3ce-46f4-8d52-df09b2f64bf7",
+    "processed_at": "2026-08-30T20:10:00Z",
     "consent_status": "active",
     "data_lineage": "customer_360.csv + audit_logs_product_views.csv + carts.csv -> Intent.csv",
-    "pii_redaction": "email, full_name, phone_number excluded from output",
+    "pii_redacted": true,
     "encryption_standard": "AES-256",
-    "intent_scoring_method": "Repeated behavioral evidence analysis (≥2 actions required for HIGH)",
-    "data_quality_flags": "FUTURE_DATED timestamp detected",
-    "audit_trail": "No repeated recent activity detected; LOW intent assigned per compliance policy"
+    "compliance_frameworks": ["SOC2", "ISO27001", "GDPR"],
+    "data_quality_flags": ["signup_date|FUTURE_DATED"],
+    "intent_analysis": {
+      "total_product_views": 0,
+      "unique_products_viewed": 0,
+      "cart_additions": 0,
+      "repeated_engagement_detected": false
+    }
   },
   {
-    "customer_id": "290946a1-1e8e-4fa8-aa2d-5e775bb58dff",
-    "processed_at": "2024-01-15T14:45:00Z",
+    "customer_id": "f665d18c-f6cd-4585-8df9-a48ad033b57b",
+    "processed_at": "2026-08-30T20:10:00Z",
     "consent_status": "active",
     "data_lineage": "customer_360.csv + audit_logs_product_views.csv + carts.csv -> Intent.csv",
-    "pii_redaction": "email, full_name, phone_number excluded from output",
+    "pii_redacted": true,
     "encryption_standard": "AES-256",
-    "intent_scoring_method": "Repeated behavioral evidence analysis (≥2 actions required for HIGH)",
-    "data_quality_flags": "FUTURE_DATED timestamp detected; cart exists but cart_items.csv empty",
-    "audit_trail": "No behavioral activity detected; LOW intent assigned per compliance policy"
+    "compliance_frameworks": ["SOC2", "ISO27001", "GDPR"],
+    "data_quality_flags": ["signup_date|FUTURE_DATED"],
+    "intent_analysis": {
+      "total_product_views": 0,
+      "unique_products_viewed": 0,
+      "cart_additions": 0,
+      "repeated_engagement_detected": false
+    }
   },
   {
-    "customer_id": "6402b123-0ece-43d3-9b5a-9e83c3e3a7d0",
-    "processed_at": "2024-01-15T14:45:00Z",
+    "customer_id": "3ec393bf-d116-439d-8ebe-5bce06825727",
+    "processed_at": "2026-08-30T20:10:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv + orders.csv + audit_logs_product_views.csv + carts.csv -> Intent.csv",
-    "pii_redaction": "email, full_name, phone_number excluded from output",
+    "data_lineage": "customer_360.csv + audit_logs_product_views.csv + carts.csv -> Intent.csv",
+    "pii_redacted": true,
     "encryption_standard": "AES-256",
-    "intent_scoring_method": "Repeated behavioral evidence analysis (≥2 actions required for HIGH)",
-    "data_quality_flags": "FUTURE_DATED timestamps detected (created_at, order_created_at, cart_created_at, cart_updated_at)",
-    "audit_trail": "1 completed purchase found (Apple AirPods Pro 2nd Gen, $236.52); purchase history excluded from intent scoring per requirements; no repeated recent activity for future purchases detected; LOW intent assigned"
+    "compliance_frameworks": ["SOC2", "ISO27001", "GDPR"],
+    "data_quality_flags": ["signup_date|FUTURE_DATED", "last_order_date|FUTURE_DATED"],
+    "intent_analysis": {
+      "total_product_views": 4,
+      "unique_products_viewed": 4,
+      "cart_additions": 1,
+      "repeated_engagement_detected": true,
+      "high_intent_product": "Dell XPS 15 (Intel i7, RTX 4060)",
+      "evidence_count": 2,
+      "engagement_timeline": "2026-08-30T20:05:42Z to 2026-08-30T20:05:43Z",
+      "purchase_completed": true,
+      "order_value": 2050.92
+    }
   }
 ]
