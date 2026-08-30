@@ -1,3 +1,4 @@
 customer_id,primary_interest,likely_product,intent_level,evidence
-1c53ca25-c4ad-46d0-832d-d1e2635aadee,NONE,NONE,LOW,"[]"
-acdc6750-f37e-49af-9674-fec0b30de6f2,NONE,NONE,LOW,"[]"
+1c53ca25-c4ad-46d0-832d-d1e2635aadee,NONE,NONE,LOW,[]
+acdc6750-f37e-49af-9674-fec0b30de6f2,NONE,NONE,LOW,[]
+fa55184e-0c59-429c-bb00-6b71ab86896e,NONE,NONE,LOW,[]
