@@ -1,26 +1,24 @@
-[
-  {
-    "customer_id": "1c53ca25-c4ad-46d0-832d-d1e2635aadee",
-    "email": {
-      "email_address": "demo@shop.local",
-      "subject": "Save 15% on Sony WH-1000XM5 headphones",
-      "body": "Dear Demo Shopper,\n\nDiscover the Sony WH-1000XM5 with industry-leading noise cancellation and 30-hour battery life. As a new customer, enjoy 15% off - just $296.65 (save $52.35).\n\nOffer valid until January 18, 2024.\n\nShop now,\nDemo Shopper\n\nUnsubscribe here."
-    },
-    "push": {
-      "title": "15% off Sony WH-1000XM5",
-      "content": "Premium noise cancellation at $296.65. Save $52.35. Offer ends January 18. Unsubscribe here."
-    }
+{
+  "customer_id": "98a3901d-3f18-4ba6-90e0-6b9f50e04074",
+  "email": {
+    "email_address": "demo@shop.local",
+    "subject": "Save 15% on Nike Air Force 1",
+    "body": "Dear Demo Shopper,\n\nWelcome to our community. Discover the iconic Nike Air Force 1 '07 in classic white leather at 15% off. Your price: $97.75.\n\nOffer valid for 72 hours.\n\nShop Now\n\nThanks,\nDemo Shopper\n\nUnsubscribe here."
   },
-  {
-    "customer_id": "fa55184e-0c59-429c-bb00-6b71ab86896e",
-    "email": {
-      "email_address": "test@test.com",
-      "subject": "Complete your audio collection with Sony WH-1000XM5",
-      "body": "Dear test,\n\nYou loved your Apple AirPods Pro. Now experience the Sony WH-1000XM5 over-ear headphones with industry-leading noise cancellation - perfect for home and office.\n\nExclusive 10% off for you: $314.10 (save $34.90).\n\nOffer valid until January 17, 2024.\n\nView offer,\ntest\n\nUnsubscribe here."
-    },
-    "whatsapp": {
-      "phone_number": "2342345435",
-      "message": "Hi test! Complete your audio setup with Sony WH-1000XM5 headphones at $314.10 (10% off). Pairs perfectly with your AirPods Pro. Offer ends Jan 17. Reply STOP to unsubscribe."
-    }
+  "push": {
+    "title": "15% off Nike Air Force 1",
+    "content": "Get the iconic white leather silhouette for $97.75. Offer valid 72 hours. Unsubscribe here."
   }
-]
+}
+{
+  "customer_id": "af0c05c2-a1ca-46cf-839d-9eb75ccecd4b",
+  "email": {
+    "email_address": "test@test.com",
+    "subject": "Complete your active lifestyle",
+    "body": "Dear test,\n\nYou loved your Adidas Ultraboost 22. Now pair it with Sony WH-1000XM5 headphones at 12% off. Industry-leading noise cancellation with 30-hour battery. Your price: $307.12.\n\nOffer valid for 48 hours.\n\nUpgrade Now\n\nThanks,\ntest\n\nUnsubscribe here."
+  },
+  "whatsapp": {
+    "phone_number": "+91 1111111111",
+    "message": "Hi test! Complete your active lifestyle with Sony WH-1000XM5 at $307.12 (12% off). Pairs perfectly with your Adidas Ultraboost 22. Offer ends in 48 hours. Reply STOP to unsubscribe."
+  }
+}
