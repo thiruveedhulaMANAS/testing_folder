@@ -2,31 +2,37 @@
   "customer_id": "1c53ca25-c4ad-46d0-832d-d1e2635aadee",
   "email": {
     "email_address": "demo@shop.local",
-    "subject": "Save 10% on Apple AirPods Pro (2nd Gen)",
-    "body": "Dear Demo Shopper, Welcome to Northline Shop! As a thank you for joining, enjoy 10% off the Apple AirPods Pro (2nd Gen) — now just $197.10 (regularly $249). Offer expires in 48 hours. Use code WELCOME10-1c53ca25 at checkout. Shop Now\nThanks, Demo Shopper\nUnsubscribe here."
-  },
-  "whatsapp": {
-    "phone_number": "+1-555-010-1234",
-    "message": "Hi Demo Shopper! Apple AirPods Pro (2nd Gen) now at $197.10 with 10% off (regularly $249). Offer ends in 48 hours. Use code WELCOME10-1c53ca25. Reply STOP to unsubscribe."
+    "subject": "Save 12% on Sony WH-1000XM5 - 48 hours only",
+    "body": "Dear Demo Shopper,\n\nWelcome to our store. Discover premium audio with the Sony WH-1000XM5 headphones at just $351.12 (regular price $399.00). Your exclusive 12% discount is waiting.\n\nOffer expires in 48 hours.\n\nShop Now\n\nUnsubscribe here."
   },
   "push": {
-    "title": "10% Off Apple AirPods Pro (2nd Gen)",
-    "content": "Get Apple AirPods Pro (2nd Gen) for $197.10. Offer valid for 48 hours. Unsubscribe here."
+    "title": "Save 12% on Sony WH-1000XM5",
+    "content": "Premium headphones now $351.12. Your exclusive welcome discount expires in 48 hours. Unsubscribe here."
   }
 }
+
 {
   "customer_id": "acdc6750-f37e-49af-9674-fec0b30de6f2",
   "email": {
     "email_address": "admin@northline.shop",
-    "subject": "Save 10% on Sony WH-1000XM5",
-    "body": "Dear Platform Administrator, Welcome to Northline Shop! As a thank you for joining, enjoy 10% off the Sony WH-1000XM5 — now just $314.10 (regularly $399). Offer expires in 48 hours. Use code WELCOME10-acdc6750 at checkout. Shop Now\nThanks, Platform Administrator\nUnsubscribe here."
-  },
-  "whatsapp": {
-    "phone_number": "+1-555-010-9999",
-    "message": "Hi Platform Administrator! Sony WH-1000XM5 now at $314.10 with 10% off (regularly $399). Offer ends in 48 hours. Use code WELCOME10-acdc6750. Reply STOP to unsubscribe."
+    "subject": "Complete your order - 15% off Fleece Hoodie",
+    "body": "Dear Platform Administrator,\n\nYour cart is waiting. Save 15% on the Fleece Pullover Hoodie (Charcoal Grey) at just $46.75 (regular price $55.00).\n\nOffer expires in 72 hours.\n\nShop Now\n\nUnsubscribe here."
   },
   "push": {
-    "title": "10% Off Sony WH-1000XM5",
-    "content": "Get Sony WH-1000XM5 for $314.10. Offer valid for 48 hours. Unsubscribe here."
+    "title": "15% off Fleece Hoodie in your cart",
+    "content": "Complete your order now at $46.75. Exclusive discount expires in 72 hours. Unsubscribe here."
+  }
+}
+
+{
+  "customer_id": "fa55184e-0c59-429c-bb00-6b71ab86896e",
+  "email": {
+    "email_address": "test@test.com",
+    "subject": "Complete your Apple setup - iPhone 15 Pro Max",
+    "body": "Dear test,\n\nYour Apple AirPods Pro deserve the perfect companion. Get the iPhone 15 Pro Max 256GB at $1,103.08 (regular price $1,199.00) with 8% off.\n\nOffer expires in 96 hours.\n\nView Offer\n\nUnsubscribe here."
+  },
+  "push": {
+    "title": "iPhone 15 Pro Max - 8% off for you",
+    "content": "Complete your Apple ecosystem at $1,103.08. Premium offer expires in 96 hours. Unsubscribe here."
   }
 }
