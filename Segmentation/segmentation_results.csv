@@ -1,4 +1,4 @@
-customer_id,email,full_name,loyalty_tier,price_sensitivity_band,confidence_level,segmentation_reason,total_orders,total_spent,last_order_date,days_since_last_order,average_order_value
-98a3901d-3f18-4ba6-90e0-6b9f50e04074,demo@shop.local,Demo Shopper,NEW,MEDIUM,HIGH,"0 orders; total_spent $0.00 < threshold; default MEDIUM sensitivity for thin data",0,0.00,,,0.00
-3858ac30-4500-45bd-8009-af2cde079b53,admin@northline.shop,Platform Administrator,NEW,MEDIUM,HIGH,"0 orders; total_spent $0.00 < threshold; default MEDIUM sensitivity for thin data; admin role excluded from promotional targeting",0,0.00,,,0.00
-af0c05c2-a1ca-46cf-839d-9eb75ccecd4b,test@test.com,test,NEW,LOW,MEDIUM,"1 order; total_spent $160.92; last_order 2026-08-30; assigned NEW tier per KB (0-1 orders); LOW sensitivity (premium single purchase, no cart abandonment)",1,160.92,2026-08-30T17:02:14.282261+00:00,0,160.92
+customer_id,loyalty_tier,price_sensitivity_band,confidence_level,segmentation_reason
+d7a6c3fc-8a34-421d-961d-60277348eec1,NEW,MEDIUM,HIGH,"Zero orders; total_spent=$0.0 < $100 threshold; qualifies as NEW tier per KB rules; MEDIUM sensitivity assigned as default for new customers with no purchase history"
+e5e39212-0aa4-4a74-9e8d-fc63695c1a63,NEW,MEDIUM,HIGH,"Zero orders; total_spent=$0.0 < $100 threshold; qualifies as NEW tier per KB rules; MEDIUM sensitivity assigned as default for new customers with no purchase history"
+26ce9b8c-6188-4f7d-84a5-c8d2127aeb5a,NEW,MEDIUM,HIGH,"1 order (0-1 range); total_spent=$59.4 < $100 threshold; last_order_date=2026-08-30 (recent); qualifies as NEW tier per KB rules; MEDIUM sensitivity based on single mid-range purchase; no cart abandonment data available"
