@@ -1,4 +1,4 @@
 customer_id,email,full_name,phone_number,role,signup_date,total_orders,total_spent,last_order_date,order_status_summary,ordered_products,cart_item_count,cart_contents,recent_product_views,data_quality_flags
-bd0aa5aa-0aa4-4e99-80b3-051238b77794,demo@shop.local,Demo Shopper,+1-555-010-1234,user,2026-08-30T21:03:48.233216+00:00,0,0.00,,,0,,,"created_at|FUTURE_DATED"
-8f357db5-f672-44fd-a66a-404eec0754b4,admin@northline.shop,Platform Administrator,+1-555-010-9999,admin,2026-08-30T21:03:48.247413+00:00,0,0.00,,,0,,,"created_at|FUTURE_DATED"
-b07ebee4-07f9-4ad3-aa3a-8a49b1e81011,test@test.com,test,+91 1111111111,user,2026-08-30T21:04:47.103871+00:00,1,25.92,2026-08-30T21:04:57.660131+00:00,completed:1,Essential Crewneck Tee,0,,Adidas Ultraboost 22;Apple AirPods Pro (2nd Gen);Essential Crewneck Tee,"created_at|FUTURE_DATED;created_at|FUTURE_DATED;created_at|FUTURE_DATED;created_at|FUTURE_DATED"
+bd0aa5aa-0aa4-4e99-80b3-051238b77794,demo@shop.local,Demo Shopper,+1-555-010-1234,user,2026-08-30T21:03:48.233216+00:00,0,0.0,,,,,,,
+8f357db5-f672-44fd-a66a-404eec0754b4,admin@northline.shop,Platform Administrator,+1-555-010-9999,admin,2026-08-30T21:03:48.247413+00:00,0,0.0,,,,,,,
+b07ebee4-07f9-4ad3-aa3a-8a49b1e81011,test@test.com,test,+91 1111111111,user,2026-08-30T21:04:47.103871+00:00,1,25.92,2026-08-30T21:04:57.660131+00:00,completed,Essential Crewneck Tee,0,,Adidas Ultraboost 22;Apple AirPods Pro (2nd Gen);Essential Crewneck Tee,created_at|FUTURE_DATED;last_order_date|FUTURE_DATED;signup_date|FUTURE_DATED
