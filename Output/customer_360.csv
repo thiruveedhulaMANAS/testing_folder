@@ -1,4 +1,4 @@
 customer_id,email,full_name,phone_number,role,signup_date,total_orders,total_spent,last_order_date,order_status_summary,ordered_products,cart_item_count,cart_contents,recent_product_views,data_quality_flags
-1c53ca25-c4ad-46d0-832d-d1e2635aadee,demo@shop.local,Demo Shopper,+1-555-010-1234,user,2026-08-30T10:25:09.825298+00:00,0,0.0,,,,,,,
-acdc6750-f37e-49af-9674-fec0b30de6f2,admin@northline.shop,Platform Administrator,+1-555-010-9999,admin,2026-08-30T10:25:09.841182+00:00,0,0.0,,,,,,,carts.created_at|FUTURE_DATED;carts.updated_at|FUTURE_DATED
-fa55184e-0c59-429c-bb00-6b71ab86896e,test@test.com,test,2342345435,user,2026-08-30T14:55:23.550118+00:00,1,236.52,2026-08-30T14:55:30.556690+00:00,completed:1,Apple AirPods Pro (2nd Gen),0,,,created_at|FUTURE_DATED;orders.created_at|FUTURE_DATED;carts.created_at|FUTURE_DATED;carts.updated_at|FUTURE_DATED
+1c53ca25-c4ad-46d0-832d-d1e2635aadee,demo@shop.local,Demo Shopper,+1-555-010-1234,user,2026-08-30T10:25:09.825298+00:00,0,0.00,,,,,,,
+acdc6750-f37e-49af-9674-fec0b30de6f2,admin@northline.shop,Platform Administrator,+1-555-010-9999,admin,2026-08-30T10:25:09.841182+00:00,0,0.00,,,,0,,,"created_at|FUTURE_DATED;updated_at|FUTURE_DATED"
+fa55184e-0c59-429c-bb00-6b71ab86896e,test@test.com,test,2342345435,user,2026-08-30T14:55:23.550118+00:00,1,236.52,2026-08-30T14:55:30.556690+00:00,completed,Apple AirPods Pro (2nd Gen),0,,,"created_at|FUTURE_DATED;updated_at|FUTURE_DATED"
