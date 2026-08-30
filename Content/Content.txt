@@ -2,23 +2,24 @@
   "customer_id": "98a3901d-3f18-4ba6-90e0-6b9f50e04074",
   "email": {
     "email_address": "demo@shop.local",
-    "subject": "Save 15% on Nike Air Force 1",
-    "body": "Dear Demo Shopper,\n\nWelcome to our community. Discover the iconic Nike Air Force 1 '07 in classic white leather at 15% off. Your price: $97.75.\n\nOffer valid for 72 hours.\n\nShop Now\n\nThanks,\nDemo Shopper\n\nUnsubscribe here."
-  },
-  "push": {
-    "title": "15% off Nike Air Force 1",
-    "content": "Get the iconic white leather silhouette for $97.75. Offer valid 72 hours. Unsubscribe here."
+    "subject": "Save 15% on Essential Crewneck Tee",
+    "body": "Dear Demo Shopper,\n\nWelcome to your first purchase! Get 15% off Essential Crewneck Tee, now just $20.40 (save $3.60). This heavyweight 100% cotton tee is perfect for everyday wear.\n\nOffer expires in 48 hours.\n\nThanks,\nDemo Shopper\n\nUnsubscribe here."
   }
 }
+
 {
   "customer_id": "af0c05c2-a1ca-46cf-839d-9eb75ccecd4b",
   "email": {
     "email_address": "test@test.com",
-    "subject": "Complete your active lifestyle",
-    "body": "Dear test,\n\nYou loved your Adidas Ultraboost 22. Now pair it with Sony WH-1000XM5 headphones at 12% off. Industry-leading noise cancellation with 30-hour battery. Your price: $307.12.\n\nOffer valid for 48 hours.\n\nUpgrade Now\n\nThanks,\ntest\n\nUnsubscribe here."
+    "subject": "Complete your running rotation: 12% off Nike Pegasus 40",
+    "body": "Dear test,\n\nComplete your running shoe rotation! Get 12% off Nike Pegasus 40 Running Shoe to complement your Adidas Ultraboost 22. Now $114.40 (save $15.60). Responsive React foam cushioning designed for daily training miles.\n\nOffer expires in 72 hours.\n\nThanks,\ntest\n\nUnsubscribe here."
   },
   "whatsapp": {
     "phone_number": "+91 1111111111",
-    "message": "Hi test! Complete your active lifestyle with Sony WH-1000XM5 at $307.12 (12% off). Pairs perfectly with your Adidas Ultraboost 22. Offer ends in 48 hours. Reply STOP to unsubscribe."
+    "message": "Hi test! Complete your running shoe rotation with Nike Pegasus 40 at 12% off - now $114.40. Pairs perfectly with your Adidas Ultraboost 22. Offer expires in 72 hours. Reply STOP to unsubscribe."
+  },
+  "push": {
+    "title": "12% off Nike Pegasus 40",
+    "content": "Complete your running rotation! Nike Pegasus 40 now $114.40. Offer expires in 72 hours. Unsubscribe here."
   }
 }
