@@ -1,4 +1,4 @@
 customer_id,email,full_name,phone_number,role,signup_date,total_orders,total_spent,last_order_date,order_status_summary,ordered_products,cart_item_count,cart_contents,recent_product_views,data_quality_flags
-1c53ca25-c4ad-46d0-832d-d1e2635aadee,demo@shop.local,Demo Shopper,+1-555-010-1234,user,2026-08-30 10:25:09.825298+00:00,0,0.00,,,,,,,signup_date|FUTURE_DATED
-acdc6750-f37e-49af-9674-fec0b30de6f2,admin@northline.shop,Platform Administrator,+1-555-010-9999,admin,2026-08-30 10:25:09.841182+00:00,0,0.00,,,,,,,signup_date|FUTURE_DATED
-fa55184e-0c59-429c-bb00-6b71ab86896e,test@test.com,test,2342345435,user,2026-08-30 14:55:23.550118+00:00,1,236.52,2026-08-30 14:55:30.556690+00:00,completed:1,Apple AirPods Pro (2nd Gen),0,,,signup_date|FUTURE_DATED;last_order_date|FUTURE_DATED
+98a3901d-3f18-4ba6-90e0-6b9f50e04074,demo@shop.local,Demo Shopper,+1-555-010-1234,user,2026-08-30T17:01:12.484633+00:00,0,0.0,,,,,,,created_at|FUTURE_DATED
+3858ac30-4500-45bd-8009-af2cde079b53,admin@northline.shop,Platform Administrator,+1-555-010-9999,admin,2026-08-30T17:01:12.514857+00:00,0,0.0,,,,,,,created_at|FUTURE_DATED
+af0c05c2-a1ca-46cf-839d-9eb75ccecd4b,test@test.com,test,+91 1111111111,user,2026-08-30T17:01:56.112627+00:00,1,160.92,2026-08-30T17:02:14.282261+00:00,completed,Adidas Ultraboost 22,0,,,created_at|FUTURE_DATED;created_at|FUTURE_DATED;created_at|FUTURE_DATED;updated_at|FUTURE_DATED
