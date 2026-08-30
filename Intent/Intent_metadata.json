@@ -1,83 +1,20 @@
 [
   {
-    "customer_id": "1c53ca25-c4ad-46d0-832d-d1e2635aadee",
-    "processed_at": "2024-01-15T00:00:00Z",
+    "customer_id": "98a3901d-3f18-4ba6-90e0-6b9f50e04074",
+    "processed_at": "2026-08-30T17:30:00.000000Z",
     "consent_status": "active",
-    "data_lineage": {
-      "source_files": ["Output/customer_360.csv", "database_export/carts.csv", "database_export/audit_logs_product_views.csv"],
-      "processing_pipeline": "Intent Analysis Engine v1.0",
-      "encryption_method": "AES-256",
-      "compliance_frameworks": ["GDPR", "CCPA", "SOC2", "ISO27001"]
-    },
-    "data_quality_flags": ["signup_date|FUTURE_DATED"],
-    "intent_analysis": {
-      "total_product_views": 0,
-      "total_cart_additions": 0,
-      "total_purchases": 0,
-      "repeated_engagement_detected": false,
-      "intent_score": 0.0,
-      "intent_level": "LOW",
-      "reason": "No recent activity logs available for intent scoring"
-    },
-    "pii_handling": {
-      "email_redacted": false,
-      "phone_redacted": false,
-      "name_redacted": false,
-      "encryption_applied": true
-    }
+    "data_lineage": "source=customer_360.csv|carts.csv|audit_logs_product_views.csv;processed_by=DataEngineer;compliance=SOC2/ISO27001;encryption=AES-256"
   },
   {
-    "customer_id": "acdc6750-f37e-49af-9674-fec0b30de6f2",
-    "processed_at": "2024-01-15T00:00:00Z",
+    "customer_id": "3858ac30-4500-45bd-8009-af2cde079b53",
+    "processed_at": "2026-08-30T17:30:00.000000Z",
     "consent_status": "active",
-    "data_lineage": {
-      "source_files": ["Output/customer_360.csv", "database_export/carts.csv", "database_export/audit_logs_product_views.csv"],
-      "processing_pipeline": "Intent Analysis Engine v1.0",
-      "encryption_method": "AES-256",
-      "compliance_frameworks": ["GDPR", "CCPA", "SOC2", "ISO27001"]
-    },
-    "data_quality_flags": ["signup_date|FUTURE_DATED"],
-    "intent_analysis": {
-      "total_product_views": 0,
-      "total_cart_additions": 0,
-      "total_purchases": 0,
-      "repeated_engagement_detected": false,
-      "intent_score": 0.0,
-      "intent_level": "LOW",
-      "reason": "No recent activity logs available for intent scoring; admin role detected"
-    },
-    "pii_handling": {
-      "email_redacted": false,
-      "phone_redacted": false,
-      "name_redacted": false,
-      "encryption_applied": true
-    }
+    "data_lineage": "source=customer_360.csv|carts.csv|audit_logs_product_views.csv;processed_by=DataEngineer;compliance=SOC2/ISO27001;encryption=AES-256"
   },
   {
-    "customer_id": "fa55184e-0c59-429c-bb00-6b71ab86896e",
-    "processed_at": "2024-01-15T00:00:00Z",
+    "customer_id": "af0c05c2-a1ca-46cf-839d-9eb75ccecd4b",
+    "processed_at": "2026-08-30T17:30:00.000000Z",
     "consent_status": "active",
-    "data_lineage": {
-      "source_files": ["Output/customer_360.csv", "database_export/carts.csv", "database_export/audit_logs_product_views.csv"],
-      "processing_pipeline": "Intent Analysis Engine v1.0",
-      "encryption_method": "AES-256",
-      "compliance_frameworks": ["GDPR", "CCPA", "SOC2", "ISO27001"]
-    },
-    "data_quality_flags": ["signup_date|FUTURE_DATED", "last_order_date|FUTURE_DATED"],
-    "intent_analysis": {
-      "total_product_views": 0,
-      "total_cart_additions": 0,
-      "total_purchases": 1,
-      "repeated_engagement_detected": false,
-      "intent_score": 0.0,
-      "intent_level": "LOW",
-      "reason": "Purchase history excluded from intent scoring per requirements; no repeated recent product views or cart additions detected"
-    },
-    "pii_handling": {
-      "email_redacted": false,
-      "phone_redacted": false,
-      "name_redacted": false,
-      "encryption_applied": true
-    }
+    "data_lineage": "source=customer_360.csv|carts.csv|audit_logs_product_views.csv;processed_by=DataEngineer;compliance=SOC2/ISO27001;encryption=AES-256"
   }
 ]
