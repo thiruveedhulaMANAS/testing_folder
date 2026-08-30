@@ -1,4 +1,4 @@
 customer_id,primary_interest,likely_product,intent_level,evidence
-1c53ca25-c4ad-46d0-832d-d1e2635aadee,NONE,NONE,LOW,"[]"
-acdc6750-f37e-49af-9674-fec0b30de6f2,NONE,NONE,LOW,"[]"
-fa55184e-0c59-429c-bb00-6b71ab86896e,Apple AirPods Pro (2nd Gen),Apple AirPods Pro (2nd Gen),LOW,"[{""event"":""purchase"",""product"":""Apple AirPods Pro (2nd Gen)"",""timestamp"":""2026-08-30T14:55:30.556690Z"",""order_value"":""236.52""}]"
+98a3901d-3f18-4ba6-90e0-6b9f50e04074,None,None,LOW,"[]"
+3858ac30-4500-45bd-8009-af2cde079b53,None,None,LOW,"[]"
+af0c05c2-a1ca-46cf-839d-9eb75ccecd4b,None,None,LOW,"[]"
