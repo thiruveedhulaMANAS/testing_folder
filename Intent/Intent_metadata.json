@@ -1,41 +1,52 @@
 [
   {
-    "customer_id": "98a3901d-3f18-4ba6-90e0-6b9f50e04074",
-    "processed_at": "2024-01-15T12:00:00Z",
+    "customer_id": "62e7bdfa-6274-45b6-85af-89546d8d67e7",
+    "processed_at": "2024-01-15T10:45:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv -> intent_analysis -> Intent.csv",
-    "data_sources": ["customer_360.csv", "audit_logs_product_views.csv", "carts.csv"],
-    "recent_activity_count": 0,
-    "intent_scoring_method": "behavioral_frequency_analysis",
-    "compliance_notes": "No recent activity data available; LOW intent assigned per policy (HIGH requires ≥2 repeated actions)",
-    "encryption": "AES-256",
-    "pii_redacted": ["email", "phone_number"],
-    "data_quality_flags": ["signup_date|FUTURE_DATED"]
+    "data_lineage": "customer_360.csv -> Intent.csv",
+    "pii_redacted": true,
+    "encryption_applied": "AES-256",
+    "compliance_frameworks": ["SOC2", "ISO27001"],
+    "intent_analysis": {
+      "total_orders": 0,
+      "cart_items": 0,
+      "product_views": 0,
+      "repeated_actions": 0,
+      "intent_rationale": "No recent activity detected; assigned LOW intent per policy"
+    }
   },
   {
-    "customer_id": "3858ac30-4500-45bd-8009-af2cde079b53",
-    "processed_at": "2024-01-15T12:00:00Z",
+    "customer_id": "eeeeb9c2-99a4-457f-9ffe-ec3d0b684581",
+    "processed_at": "2024-01-15T10:45:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv -> intent_analysis -> Intent.csv",
-    "data_sources": ["customer_360.csv", "audit_logs_product_views.csv", "carts.csv"],
-    "recent_activity_count": 0,
-    "intent_scoring_method": "behavioral_frequency_analysis",
-    "compliance_notes": "Admin role; no recent activity data available; LOW intent assigned per policy; excluded from promotional targeting",
-    "encryption": "AES-256",
-    "pii_redacted": ["email", "phone_number"],
-    "data_quality_flags": ["signup_date|FUTURE_DATED", "cart_created_at|FUTURE_DATED", "cart_updated_at|FUTURE_DATED"]
+    "data_lineage": "customer_360.csv + carts.csv -> Intent.csv",
+    "pii_redacted": true,
+    "encryption_applied": "AES-256",
+    "compliance_frameworks": ["SOC2", "ISO27001"],
+    "intent_analysis": {
+      "total_orders": 0,
+      "cart_items": 0,
+      "product_views": 0,
+      "repeated_actions": 0,
+      "intent_rationale": "Empty cart detected; no product engagement; assigned LOW intent per policy",
+      "role_exclusion": "admin role excluded from promotional targeting"
+    }
   },
   {
-    "customer_id": "af0c05c2-a1ca-46cf-839d-9eb75ccecd4b",
-    "processed_at": "2024-01-15T12:00:00Z",
+    "customer_id": "0e70ea63-382d-4393-a50f-750df382733f",
+    "processed_at": "2024-01-15T10:45:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv -> intent_analysis -> Intent.csv",
-    "data_sources": ["customer_360.csv", "audit_logs_product_views.csv", "carts.csv"],
-    "recent_activity_count": 0,
-    "intent_scoring_method": "behavioral_frequency_analysis",
-    "compliance_notes": "Historical order data (Adidas Ultraboost 22) excluded from intent scoring per policy; no recent activity data available; LOW intent assigned",
-    "encryption": "AES-256",
-    "pii_redacted": ["email", "phone_number"],
-    "data_quality_flags": ["signup_date|FUTURE_DATED", "order_created_at|FUTURE_DATED", "cart_created_at|FUTURE_DATED", "cart_updated_at|FUTURE_DATED"]
+    "data_lineage": "customer_360.csv + carts.csv -> Intent.csv",
+    "pii_redacted": true,
+    "encryption_applied": "AES-256",
+    "compliance_frameworks": ["SOC2", "ISO27001"],
+    "intent_analysis": {
+      "total_orders": 1,
+      "cart_items": 0,
+      "product_views": 0,
+      "repeated_actions": 0,
+      "intent_rationale": "Purchase completed for Adidas Ultraboost 22; no repeated pre-purchase engagement detected (product views/cart additions empty); assigned LOW intent per policy (HIGH requires >=2 repeated recent actions for same item)",
+      "purchase_exclusion_note": "Purchase history excluded from intent scoring per instruction #4"
+    }
   }
 ]
