@@ -1,72 +1,33 @@
-
-  {
-    "customer_id": "9580a5a5-a3ce-46f4-8d52-df09b2f64bf7",
-    "email": {
-      "email_address": "demo@shop.local",
-      "subject": "Welcome! Get 10% off your first purchase",
-      "body": "Dear Demo Shopper,
-
-Welcome to our store! Enjoy 10% off the iPhone SE (3rd Gen) 128GB. Now just $341.10 (regular price $379.00). This offer is valid for 72 hours.
-
-Use code: WELCOME10-9580a5a5
-
-Thanks,
-Demo Shopper
-
-Unsubscribe here."
-    },
-    "whatsapp": {
-      "phone_number": "+1-555-010-1234",
-      "message": "Hi Demo Shopper! Welcome! Get 10% off iPhone SE (3rd Gen) 128GB - now $341.10. Valid 72hrs. Code: WELCOME10-9580a5a5. Reply STOP to unsubscribe."
-    },
-    "push": {
-      "title": "10% off iPhone SE",
-      "content": "Welcome! iPhone SE (3rd Gen) 128GB now $341.10. Valid 72 hours. Unsubscribe here."
-    }
+{
+  "customer_id": "9580a5a5-a3ce-46f4-8d52-df09b2f64bf7",
+  "email": {
+    "email_address": "demo@shop.local",
+    "subject": "Discover premium audio with 12% off APPLE AIRPODS PRO",
+    "body": "Dear Demo Shopper,\n\nWelcome to our community. We're excited to offer you 12% off APPLE AIRPODS PRO (2nd Gen) featuring adaptive audio, active noise cancellation, and USB-C charging case.\n\nYour exclusive price: $219.12 (regularly $249.00)\n\nThis offer is valid for 48 hours only.\n\nShop Now\n\nThanks,\nDemo Shopper\n\nUnsubscribe here."
   },
-  {
-    "customer_id": "f665d18c-f6cd-4585-8df9-a48ad033b57b",
-    "email": {
-      "email_address": "admin@northline.shop",
-      "subject": "Welcome! Enjoy 15% off your first order",
-      "body": "Dear Platform Administrator,
-
-Welcome to our store! Enjoy 15% off the Essential Crewneck Tee. Now just $20.40 (regular price $24.00). This offer is valid for 72 hours.
-
-Use code: WELCOME15-f665d18c
-
-Thanks,
-Platform Administrator
-
-Unsubscribe here."
-    },
-    "push": {
-      "title": "15% off Essential Crewneck Tee",
-      "content": "Welcome! Essential Crewneck Tee now $20.40. Valid 72 hours. Unsubscribe here."
-    }
+  "whatsapp": {
+    "phone_number": "+1-555-010-1234",
+    "message": "Hi Demo Shopper! Welcome. Get 12% off APPLE AIRPODS PRO (2nd Gen) - now $219.12. Adaptive audio & noise cancellation included. Valid 48 hours. Shop now. Reply STOP to unsubscribe."
   },
-  {
-    "customer_id": "3ec393bf-d116-439d-8ebe-5bce06825727",
-    "email": {
-      "email_address": "test@test.com",
-      "subject": "Complete your setup! 5% off AirPods Pro",
-      "body": "Dear test,
-
-Complete your Dell XPS 15 setup with Apple AirPods Pro (2nd Gen). Enjoy 5% off - now just $207.95 (regular price $219.00). This offer is valid for 48 hours.
-
-Use code: CROSSSELL5-3ec393bf
-
-Thanks,
-test
-
-Unsubscribe here."
-    },
-    "whatsapp": {
-      "phone_number": "+91 1111111111",
-      "message": "Hi test! Complete your setup with AirPods Pro (2nd Gen) - 5% off, now $207.95. Valid 48hrs. Code: CROSSSELL5-3ec393bf. Reply STOP to unsubscribe."
-    },
-    "push": {
-      "title": "5% off AirPods Pro",
-      "content": "Complete your setup! Apple AirPods Pro (2nd Gen) now $207.95. Valid 48 hours. Unsubscribe here."
-    }
+  "push": {
+    "title": "12% off APPLE AIRPODS PRO",
+    "content": "Welcome offer: APPLE AIRPODS PRO (2nd Gen) now $219.12. Adaptive audio & noise cancellation. Valid 48 hours. Unsubscribe here."
   }
+}
+
+{
+  "customer_id": "3ec393bf-d116-439d-8ebe-5bce06825727",
+  "email": {
+    "email_address": "test@test.com",
+    "subject": "Complete your DELL XPS 15 setup with 10% off AIRPODS PRO",
+    "body": "Dear test,\n\nThank you for your recent purchase of the DELL XPS 15. Complete your tech setup with APPLE AIRPODS PRO (2nd Gen) - the perfect companion for your new laptop.\n\nYour exclusive price: $224.10 (regularly $249.00) - save 10%\n\nFeatures: Adaptive audio, active noise cancellation, USB-C charging case\n\nThis offer is valid for 72 hours.\n\nView Offer\n\nThanks,\ntest\n\nUnsubscribe here."
+  },
+  "whatsapp": {
+    "phone_number": "+91 1111111111",
+    "message": "Hi test! Complete your DELL XPS 15 setup. Get 10% off APPLE AIRPODS PRO (2nd Gen) - now $224.10. Perfect companion for your laptop. Valid 72 hours. Shop now. Reply STOP to unsubscribe."
+  },
+  "push": {
+    "title": "10% off APPLE AIRPODS PRO for your DELL XPS 15",
+    "content": "Complete your setup: APPLE AIRPODS PRO (2nd Gen) now $224.10. Perfect companion for your laptop. Valid 72 hours. Unsubscribe here."
+  }
+}
