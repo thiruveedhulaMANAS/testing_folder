@@ -1,48 +1,72 @@
-{
-  "customer_id": "fdaf7443-3ed4-4f66-a254-742e458b1542",
-  "email": {
-    "email_address": "demo@shop.local",
-    "subject": "Welcome! Exclusive 10% off premium audio",
-    "body": "Dear Demo Shopper,\n\nStart your journey with SONY WH-1000XM5 - industry-leading noise cancellation with 30-hour battery. Save $39.90 (10% off) for 72 hours only.\n\nOriginal price: $399.00\nYour price: $359.10\n\nShop Now\n\nThanks,\nDemo Shopper\n\nUnsubscribe here."
+
+  {
+    "customer_id": "9580a5a5-a3ce-46f4-8d52-df09b2f64bf7",
+    "email": {
+      "email_address": "demo@shop.local",
+      "subject": "Welcome! Get 10% off your first purchase",
+      "body": "Dear Demo Shopper,
+
+Welcome to our store! Enjoy 10% off the iPhone SE (3rd Gen) 128GB. Now just $341.10 (regular price $379.00). This offer is valid for 72 hours.
+
+Use code: WELCOME10-9580a5a5
+
+Thanks,
+Demo Shopper
+
+Unsubscribe here."
+    },
+    "whatsapp": {
+      "phone_number": "+1-555-010-1234",
+      "message": "Hi Demo Shopper! Welcome! Get 10% off iPhone SE (3rd Gen) 128GB - now $341.10. Valid 72hrs. Code: WELCOME10-9580a5a5. Reply STOP to unsubscribe."
+    },
+    "push": {
+      "title": "10% off iPhone SE",
+      "content": "Welcome! iPhone SE (3rd Gen) 128GB now $341.10. Valid 72 hours. Unsubscribe here."
+    }
   },
-  "whatsapp": {
-    "phone_number": "+1-555-010-1234",
-    "message": "Hi Demo Shopper! Welcome offer: SONY WH-1000XM5 at $359.10 (10% off). Save $39.90 for 72 hours. Shop now. Reply STOP to unsubscribe."
+  {
+    "customer_id": "f665d18c-f6cd-4585-8df9-a48ad033b57b",
+    "email": {
+      "email_address": "admin@northline.shop",
+      "subject": "Welcome! Enjoy 15% off your first order",
+      "body": "Dear Platform Administrator,
+
+Welcome to our store! Enjoy 15% off the Essential Crewneck Tee. Now just $20.40 (regular price $24.00). This offer is valid for 72 hours.
+
+Use code: WELCOME15-f665d18c
+
+Thanks,
+Platform Administrator
+
+Unsubscribe here."
+    },
+    "push": {
+      "title": "15% off Essential Crewneck Tee",
+      "content": "Welcome! Essential Crewneck Tee now $20.40. Valid 72 hours. Unsubscribe here."
+    }
   },
-  "push": {
-    "title": "10% off SONY WH-1000XM5",
-    "content": "Premium noise cancellation headphones. Save $39.90 for 72 hours. Unsubscribe here."
+  {
+    "customer_id": "3ec393bf-d116-439d-8ebe-5bce06825727",
+    "email": {
+      "email_address": "test@test.com",
+      "subject": "Complete your setup! 5% off AirPods Pro",
+      "body": "Dear test,
+
+Complete your Dell XPS 15 setup with Apple AirPods Pro (2nd Gen). Enjoy 5% off - now just $207.95 (regular price $219.00). This offer is valid for 48 hours.
+
+Use code: CROSSSELL5-3ec393bf
+
+Thanks,
+test
+
+Unsubscribe here."
+    },
+    "whatsapp": {
+      "phone_number": "+91 1111111111",
+      "message": "Hi test! Complete your setup with AirPods Pro (2nd Gen) - 5% off, now $207.95. Valid 48hrs. Code: CROSSSELL5-3ec393bf. Reply STOP to unsubscribe."
+    },
+    "push": {
+      "title": "5% off AirPods Pro",
+      "content": "Complete your setup! Apple AirPods Pro (2nd Gen) now $207.95. Valid 48 hours. Unsubscribe here."
+    }
   }
-}
-{
-  "customer_id": "290946a1-1e8e-4fa8-aa2d-5e775bb58dff",
-  "email": {
-    "email_address": "admin@northline.shop",
-    "subject": "Welcome! Exclusive 10% off Apple AirPods Pro",
-    "body": "Dear Platform Administrator,\n\nDiscover adaptive audio with APPLE AIRPODS PRO (2nd Gen) with USB-C charging case. Save $24.90 (10% off) for 72 hours only.\n\nOriginal price: $249.00\nYour price: $224.10\n\nShop Now\n\nThanks,\nPlatform Administrator\n\nUnsubscribe here."
-  },
-  "whatsapp": {
-    "phone_number": "+1-555-010-9999",
-    "message": "Hi Platform Administrator! Welcome offer: APPLE AIRPODS PRO (2nd Gen) at $224.10 (10% off). Save $24.90 for 72 hours. Shop now. Reply STOP to unsubscribe."
-  },
-  "push": {
-    "title": "10% off Apple AirPods Pro",
-    "content": "Adaptive audio with USB-C. Save $24.90 for 72 hours. Unsubscribe here."
-  }
-}
-{
-  "customer_id": "6402b123-0ece-43d3-9b5a-9e83c3e3a7d0",
-  "email": {
-    "email_address": "test@test.com",
-    "subject": "Complete your audio setup - 10% off SONY WH-1000XM5",
-    "body": "Dear test,\n\nYou loved your APPLE AIRPODS PRO. Now upgrade to SONY WH-1000XM5 over-ear headphones for home and travel. Save $39.90 (10% off) for 48 hours.\n\nOriginal price: $399.00\nYour price: $359.10\n\nComplete Your Setup\n\nThanks,\ntest\n\nUnsubscribe here."
-  },
-  "whatsapp": {
-    "phone_number": "2342345435",
-    "message": "Hi test! Complement your AirPods Pro with SONY WH-1000XM5 over-ear headphones at $359.10 (10% off). Save $39.90 for 48 hours. Complete your setup. Reply STOP to unsubscribe."
-  },
-  "push": {
-    "title": "10% off SONY WH-1000XM5",
-    "content": "Complement your AirPods Pro with over-ear audio. Save $39.90 for 48 hours. Unsubscribe here."
-  }
-}
