@@ -1,3 +1,3 @@
 customer_id,email,full_name,phone_number,role,signup_date,total_orders,total_spent,last_order_date,order_status_summary,ordered_products,cart_item_count,cart_contents,recent_product_views,data_quality_flags
-1c53ca25-c4ad-46d0-832d-d1e2635aadee,demo@shop.local,Demo Shopper,+1-555-010-1234,user,2026-08-30T10:25:09.825298+00:00,0,0.00,,,0,0,,,
-acdc6750-f37e-49af-9674-fec0b30de6f2,admin@northline.shop,Platform Administrator,+1-555-010-9999,admin,2026-08-30T10:25:09.841182+00:00,0,0.00,,,0,0,,,
+1c53ca25-c4ad-46d0-832d-d1e2635aadee,demo@shop.local,Demo Shopper,+1-555-010-1234,user,2026-08-30T10:25:09.825298+00:00,0,0.00,,,0,,,
+acdc6750-f37e-49af-9674-fec0b30de6f2,admin@northline.shop,Platform Administrator,+1-555-010-9999,admin,2026-08-30T10:25:09.841182+00:00,0,0.00,,,0,,,
