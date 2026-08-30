@@ -1,7 +1,2 @@
 run_id,script_id,triggered_by,campaign_name,campaign_details,status,approval_status,attempt,error,started_at,finished_at,approved_at,updated_at
-b52f12da-4663-40da-87ec-a2201b10f92f,marketing_agent,804393bc-fb61-4d4e-8318-4366fdf12556,,,awaiting_approval,awaiting_approval,1,,2026-08-30 04:30:34.310000+00:00,,,2026-08-30 04:31:37.129789+00:00
-a72e30af-1d37-4b2f-9175-07266f8c5218,marketing_agent,804393bc-fb61-4d4e-8318-4366fdf12556,summer engagement,20% off on all products,awaiting_approval,awaiting_approval,1,,2026-08-30 04:39:30.292000+00:00,,,2026-08-30 04:40:27.037728+00:00
-08394841-515b-45be-ab5d-185ac182c202,marketing_agent,804393bc-fb61-4d4e-8318-4366fdf12556,,,awaiting_approval,awaiting_approval,2,,2026-08-30 04:44:40.552000+00:00,,,2026-08-30 05:05:28.017031+00:00
-e522a75b-1f75-47c1-a52a-41bb10cd865f,marketing_agent,804393bc-fb61-4d4e-8318-4366fdf12556,,,succeeded,approved,3,,2026-08-30 05:09:09.820000+00:00,2026-08-30 05:16:10.316000+00:00,2026-08-30 05:16:10.316000+00:00,2026-08-30 05:16:10.317877+00:00
-2c2b60be-3cbf-49ae-94f5-8574a3b4fd62,marketing_agent,804393bc-fb61-4d4e-8318-4366fdf12556,,,succeeded,approved,2,,2026-08-30 06:50:01.192000+00:00,2026-08-30 07:04:13.109000+00:00,2026-08-30 07:04:13.109000+00:00,2026-08-30 07:04:13.110749+00:00
-5a72f591-eefc-45c8-86df-3ce945c2d7fa,marketing_agent,804393bc-fb61-4d4e-8318-4366fdf12556,,customer mail id of input.txt for sending out the email,running,processing,1,,2026-08-30 09:01:06.369000+00:00,,,2026-08-30 09:01:06.370741+00:00
+34683501-fbd3-4f06-8f50-a8da621b2ada,marketing_agent,acdc6750-f37e-49af-9674-fec0b30de6f2,,,running,processing,1,,2026-08-30 10:25:37.872000+00:00,,,2026-08-30 10:25:37.873776+00:00
