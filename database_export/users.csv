@@ -1,4 +1,3 @@
 id,email,full_name,phone_number,role,created_at
-1da4fe09-92d9-4ef2-a57e-41db860fd231,demo@shop.local,Demo Shopper,+1-555-010-1234,user,2026-08-29 21:04:02.839916+00:00
-e350e7ff-2ac6-4079-8628-b8fac2885fbc,admin@northline.shop,Platform Administrator,+1-555-010-9999,admin,2026-08-29 21:04:02.872469+00:00
-277bdf72-b513-4eb2-a921-db38544015ab,test@test.com,test,1111111111,user,2026-08-29 21:08:46.528464+00:00
+6f54749c-585e-4361-9916-fa84423a0419,demo@shop.local,Demo Shopper,+1-555-010-1234,user,2026-08-30 04:11:50.107248+00:00
+d8f00470-f866-4506-bba6-063ce3377a14,admin@northline.shop,Platform Administrator,+1-555-010-9999,admin,2026-08-30 04:11:50.126709+00:00
