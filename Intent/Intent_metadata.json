@@ -1,20 +1,41 @@
 [
   {
     "customer_id": "98a3901d-3f18-4ba6-90e0-6b9f50e04074",
-    "processed_at": "2026-08-30T17:30:00.000000Z",
+    "processed_at": "2024-01-15T12:00:00Z",
     "consent_status": "active",
-    "data_lineage": "source=customer_360.csv|carts.csv|audit_logs_product_views.csv;processed_by=DataEngineer;compliance=SOC2/ISO27001;encryption=AES-256"
+    "data_lineage": "customer_360.csv -> intent_analysis -> Intent.csv",
+    "data_sources": ["customer_360.csv", "audit_logs_product_views.csv", "carts.csv"],
+    "recent_activity_count": 0,
+    "intent_scoring_method": "behavioral_frequency_analysis",
+    "compliance_notes": "No recent activity data available; LOW intent assigned per policy (HIGH requires ≥2 repeated actions)",
+    "encryption": "AES-256",
+    "pii_redacted": ["email", "phone_number"],
+    "data_quality_flags": ["signup_date|FUTURE_DATED"]
   },
   {
     "customer_id": "3858ac30-4500-45bd-8009-af2cde079b53",
-    "processed_at": "2026-08-30T17:30:00.000000Z",
+    "processed_at": "2024-01-15T12:00:00Z",
     "consent_status": "active",
-    "data_lineage": "source=customer_360.csv|carts.csv|audit_logs_product_views.csv;processed_by=DataEngineer;compliance=SOC2/ISO27001;encryption=AES-256"
+    "data_lineage": "customer_360.csv -> intent_analysis -> Intent.csv",
+    "data_sources": ["customer_360.csv", "audit_logs_product_views.csv", "carts.csv"],
+    "recent_activity_count": 0,
+    "intent_scoring_method": "behavioral_frequency_analysis",
+    "compliance_notes": "Admin role; no recent activity data available; LOW intent assigned per policy; excluded from promotional targeting",
+    "encryption": "AES-256",
+    "pii_redacted": ["email", "phone_number"],
+    "data_quality_flags": ["signup_date|FUTURE_DATED", "cart_created_at|FUTURE_DATED", "cart_updated_at|FUTURE_DATED"]
   },
   {
     "customer_id": "af0c05c2-a1ca-46cf-839d-9eb75ccecd4b",
-    "processed_at": "2026-08-30T17:30:00.000000Z",
+    "processed_at": "2024-01-15T12:00:00Z",
     "consent_status": "active",
-    "data_lineage": "source=customer_360.csv|carts.csv|audit_logs_product_views.csv;processed_by=DataEngineer;compliance=SOC2/ISO27001;encryption=AES-256"
+    "data_lineage": "customer_360.csv -> intent_analysis -> Intent.csv",
+    "data_sources": ["customer_360.csv", "audit_logs_product_views.csv", "carts.csv"],
+    "recent_activity_count": 0,
+    "intent_scoring_method": "behavioral_frequency_analysis",
+    "compliance_notes": "Historical order data (Adidas Ultraboost 22) excluded from intent scoring per policy; no recent activity data available; LOW intent assigned",
+    "encryption": "AES-256",
+    "pii_redacted": ["email", "phone_number"],
+    "data_quality_flags": ["signup_date|FUTURE_DATED", "order_created_at|FUTURE_DATED", "cart_created_at|FUTURE_DATED", "cart_updated_at|FUTURE_DATED"]
   }
 ]
