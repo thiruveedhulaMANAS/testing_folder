@@ -1,28 +1,42 @@
 [
   {
     "customer_id": "1c53ca25-c4ad-46d0-832d-d1e2635aadee",
-    "processed_at": "2024-01-15T12:00:00Z",
+    "processed_at": "2026-08-30T10:25:15Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv + audit_logs_product_views.csv + carts.csv → Intent.csv",
-    "encryption_method": "AES-256",
-    "compliance_standards": ["SOC2", "ISO27001", "GDPR"],
-    "pii_redacted": ["email", "full_name", "phone_number"],
-    "activity_records_analyzed": 0,
-    "intent_determination_reason": "No behavioral activity found in audit logs or carts. Zero product views, zero cart additions. Intent level LOW assigned per requirement that HIGH intent requires repeated (≥2) recent actions for same item.",
-    "data_retention_policy": "90 days",
-    "audit_trail_id": "INTENT-2024-01-15-001"
+    "data_lineage": {
+      "source_files": ["Output/customer_360.csv", "database_export/carts.csv", "database_export/audit_logs_product_views.csv"],
+      "processing_agent": "Data Engineer (Intent Analytics)",
+      "repository": "thiruveedhulaMANAS/testing_folder",
+      "branch": "main",
+      "encryption": "AES-256 (GitHub at-rest encryption)",
+      "pii_fields_redacted": ["email", "full_name", "phone_number"],
+      "activity_sources": {
+        "cart_items": 0,
+        "product_views": 0,
+        "orders_excluded": "Purchase history excluded from intent scoring per requirements"
+      },
+      "intent_scoring_logic": "No repeated activity detected (threshold: ≥2 actions for same product). Intent level: LOW assigned due to absence of behavioral signals.",
+      "compliance_frameworks": ["SOC2", "ISO27001", "GDPR", "CCPA"]
+    }
   },
   {
     "customer_id": "acdc6750-f37e-49af-9674-fec0b30de6f2",
-    "processed_at": "2024-01-15T12:00:00Z",
+    "processed_at": "2026-08-30T10:25:15Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv + audit_logs_product_views.csv + carts.csv → Intent.csv",
-    "encryption_method": "AES-256",
-    "compliance_standards": ["SOC2", "ISO27001", "GDPR"],
-    "pii_redacted": ["email", "full_name", "phone_number"],
-    "activity_records_analyzed": 0,
-    "intent_determination_reason": "No behavioral activity found in audit logs or carts. Zero product views, zero cart additions. Intent level LOW assigned per requirement that HIGH intent requires repeated (≥2) recent actions for same item.",
-    "data_retention_policy": "90 days",
-    "audit_trail_id": "INTENT-2024-01-15-002"
+    "data_lineage": {
+      "source_files": ["Output/customer_360.csv", "database_export/carts.csv", "database_export/audit_logs_product_views.csv"],
+      "processing_agent": "Data Engineer (Intent Analytics)",
+      "repository": "thiruveedhulaMANAS/testing_folder",
+      "branch": "main",
+      "encryption": "AES-256 (GitHub at-rest encryption)",
+      "pii_fields_redacted": ["email", "full_name", "phone_number"],
+      "activity_sources": {
+        "cart_items": 0,
+        "product_views": 0,
+        "orders_excluded": "Purchase history excluded from intent scoring per requirements"
+      },
+      "intent_scoring_logic": "No repeated activity detected (threshold: ≥2 actions for same product). Intent level: LOW assigned due to absence of behavioral signals.",
+      "compliance_frameworks": ["SOC2", "ISO27001", "GDPR", "CCPA"]
+    }
   }
 ]
