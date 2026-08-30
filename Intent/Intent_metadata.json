@@ -1,79 +1,38 @@
 [
   {
     "customer_id": "bd0aa5aa-0aa4-4e99-80b3-051238b77794",
-    "processed_at": "2024-01-15T10:45:00Z",
+    "processed_at": "2026-08-30T21:10:00Z",
     "consent_status": "active",
-    "data_lineage": {
-      "source_files": ["Output/customer_360.csv", "database_export/audit_logs_product_views.csv", "database_export/carts.csv"],
-      "processing_pipeline": "intent_analysis_v1",
-      "pii_fields_encrypted": ["email", "full_name", "phone_number"],
-      "encryption_method": "AES-256-GCM",
-      "activity_events_analyzed": 0,
-      "intent_scoring_method": "repeated_behavior_threshold_gte_2",
-      "compliance_frameworks": ["SOC2", "ISO27001", "GDPR", "CCPA"]
-    },
-    "audit_trail": {
-      "github_repo": "thiruveedhulaMANAS/testing_folder",
-      "branch": "main",
-      "accessed_at": "2024-01-15T10:45:00Z",
-      "processed_by": "data_engineer_intent_pipeline",
-      "data_retention_policy": "365_days",
-      "quarantine_records": 0
-    }
+    "data_lineage": "customer_360.csv->audit_logs_product_views.csv->carts.csv->Intent.csv",
+    "pii_redacted": ["email", "full_name", "phone_number"],
+    "encryption_method": "AES-256",
+    "compliance_flags": ["FUTURE_DATED"],
+    "intent_score": 0,
+    "activity_count": 0
   },
   {
     "customer_id": "8f357db5-f672-44fd-a66a-404eec0754b4",
-    "processed_at": "2024-01-15T10:45:00Z",
+    "processed_at": "2026-08-30T21:10:00Z",
     "consent_status": "active",
-    "data_lineage": {
-      "source_files": ["Output/customer_360.csv", "database_export/audit_logs_product_views.csv", "database_export/carts.csv"],
-      "processing_pipeline": "intent_analysis_v1",
-      "pii_fields_encrypted": ["email", "full_name", "phone_number"],
-      "encryption_method": "AES-256-GCM",
-      "activity_events_analyzed": 0,
-      "intent_scoring_method": "repeated_behavior_threshold_gte_2",
-      "compliance_frameworks": ["SOC2", "ISO27001", "GDPR", "CCPA"]
-    },
-    "audit_trail": {
-      "github_repo": "thiruveedhulaMANAS/testing_folder",
-      "branch": "main",
-      "accessed_at": "2024-01-15T10:45:00Z",
-      "processed_by": "data_engineer_intent_pipeline",
-      "data_retention_policy": "365_days",
-      "quarantine_records": 0,
-      "special_notes": "admin_role_no_customer_activity"
-    }
+    "data_lineage": "customer_360.csv->audit_logs_product_views.csv->carts.csv->Intent.csv",
+    "pii_redacted": ["email", "full_name", "phone_number"],
+    "encryption_method": "AES-256",
+    "compliance_flags": ["FUTURE_DATED", "ADMIN_ROLE"],
+    "intent_score": 0,
+    "activity_count": 0
   },
   {
     "customer_id": "b07ebee4-07f9-4ad3-aa3a-8a49b1e81011",
-    "processed_at": "2024-01-15T10:45:00Z",
+    "processed_at": "2026-08-30T21:10:00Z",
     "consent_status": "active",
-    "data_lineage": {
-      "source_files": ["Output/customer_360.csv", "database_export/audit_logs_product_views.csv", "database_export/carts.csv"],
-      "processing_pipeline": "intent_analysis_v1",
-      "pii_fields_encrypted": ["email", "full_name", "phone_number"],
-      "encryption_method": "AES-256-GCM",
-      "activity_events_analyzed": 7,
-      "intent_scoring_method": "repeated_behavior_threshold_gte_2",
-      "compliance_frameworks": ["SOC2", "ISO27001", "GDPR", "CCPA"],
-      "high_intent_justification": "3 repeated actions for Essential Crewneck Tee (product_id=7): 2 PRODUCT_VIEW events + 1 ADD_TO_CART event within 3-second window, indicating strong purchase intent"
-    },
-    "audit_trail": {
-      "github_repo": "thiruveedhulaMANAS/testing_folder",
-      "branch": "main",
-      "accessed_at": "2024-01-15T10:45:00Z",
-      "processed_by": "data_engineer_intent_pipeline",
-      "data_retention_policy": "365_days",
-      "quarantine_records": 4,
-      "data_quality_flags": ["FUTURE_DATED"],
-      "products_viewed": [
-        {"product_id": 22, "product_name": "Adidas Ultraboost 22", "category_id": 5, "view_count": 1, "dwell_time_ms": 1240},
-        {"product_id": 17, "product_name": "Apple AirPods Pro (2nd Gen)", "category_id": 4, "view_count": 1, "dwell_time_ms": 967},
-        {"product_id": 7, "product_name": "Essential Crewneck Tee", "category_id": 2, "view_count": 2, "dwell_time_ms": 2829, "added_to_cart": true}
-      ],
-      "purchase_history_excluded": true,
-      "order_completed": true,
-      "order_product": "Essential Crewneck Tee"
-    }
+    "data_lineage": "customer_360.csv->audit_logs_product_views.csv->carts.csv->Intent.csv",
+    "pii_redacted": ["email", "full_name", "phone_number"],
+    "encryption_method": "AES-256",
+    "compliance_flags": ["FUTURE_DATED"],
+    "intent_score": 100,
+    "activity_count": 5,
+    "high_intent_justification": "Customer viewed Essential Crewneck Tee (product_id=7) at 2026-08-30T21:04:53.747673+00:00, then added to cart at 2026-08-30T21:04:54.698755+00:00 within 1 second. Two distinct actions (view + add_to_cart) on same product qualifies as repeated engagement per HIGH intent criteria (>=2 actions).",
+    "excluded_from_intent": ["purchase_history"],
+    "regulatory_compliance": ["SOC2", "ISO27001", "GDPR"]
   }
 ]
