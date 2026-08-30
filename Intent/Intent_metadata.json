@@ -1,55 +1,36 @@
 [
   {
-    "customer_id": "9580a5a5-a3ce-46f4-8d52-df09b2f64bf7",
-    "processed_at": "2026-08-30T20:10:00Z",
+    "customer_id": "bd0aa5aa-0aa4-4e99-80b3-051238b77794",
+    "processed_at": "2024-12-19T08:30:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv + audit_logs_product_views.csv + carts.csv -> Intent.csv",
-    "pii_redacted": true,
+    "data_lineage": "customer_360.csv|audit_logs_product_views.csv|carts.csv",
+    "pii_redacted": ["email", "full_name", "phone_number"],
     "encryption_standard": "AES-256",
-    "compliance_frameworks": ["SOC2", "ISO27001", "GDPR"],
-    "data_quality_flags": ["signup_date|FUTURE_DATED"],
-    "intent_analysis": {
-      "total_product_views": 0,
-      "unique_products_viewed": 0,
-      "cart_additions": 0,
-      "repeated_engagement_detected": false
-    }
+    "activity_records_analyzed": 0,
+    "intent_scoring_method": "repeated_behavior_threshold_gte_2",
+    "compliance_flags": ["FUTURE_DATED"]
   },
   {
-    "customer_id": "f665d18c-f6cd-4585-8df9-a48ad033b57b",
-    "processed_at": "2026-08-30T20:10:00Z",
+    "customer_id": "8f357db5-f672-44fd-a66a-404eec0754b4",
+    "processed_at": "2024-12-19T08:30:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv + audit_logs_product_views.csv + carts.csv -> Intent.csv",
-    "pii_redacted": true,
+    "data_lineage": "customer_360.csv|audit_logs_product_views.csv|carts.csv",
+    "pii_redacted": ["email", "full_name", "phone_number"],
     "encryption_standard": "AES-256",
-    "compliance_frameworks": ["SOC2", "ISO27001", "GDPR"],
-    "data_quality_flags": ["signup_date|FUTURE_DATED"],
-    "intent_analysis": {
-      "total_product_views": 0,
-      "unique_products_viewed": 0,
-      "cart_additions": 0,
-      "repeated_engagement_detected": false
-    }
+    "activity_records_analyzed": 0,
+    "intent_scoring_method": "repeated_behavior_threshold_gte_2",
+    "compliance_flags": ["FUTURE_DATED"]
   },
   {
-    "customer_id": "3ec393bf-d116-439d-8ebe-5bce06825727",
-    "processed_at": "2026-08-30T20:10:00Z",
+    "customer_id": "b07ebee4-07f9-4ad3-aa3a-8a49b1e81011",
+    "processed_at": "2024-12-19T08:30:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv + audit_logs_product_views.csv + carts.csv -> Intent.csv",
-    "pii_redacted": true,
+    "data_lineage": "customer_360.csv|audit_logs_product_views.csv|carts.csv",
+    "pii_redacted": ["email", "full_name", "phone_number"],
     "encryption_standard": "AES-256",
-    "compliance_frameworks": ["SOC2", "ISO27001", "GDPR"],
-    "data_quality_flags": ["signup_date|FUTURE_DATED", "last_order_date|FUTURE_DATED"],
-    "intent_analysis": {
-      "total_product_views": 4,
-      "unique_products_viewed": 4,
-      "cart_additions": 1,
-      "repeated_engagement_detected": true,
-      "high_intent_product": "Dell XPS 15 (Intel i7, RTX 4060)",
-      "evidence_count": 2,
-      "engagement_timeline": "2026-08-30T20:05:42Z to 2026-08-30T20:05:43Z",
-      "purchase_completed": true,
-      "order_value": 2050.92
-    }
+    "activity_records_analyzed": 7,
+    "intent_scoring_method": "repeated_behavior_threshold_gte_2",
+    "compliance_flags": ["FUTURE_DATED"],
+    "high_intent_justification": "Customer viewed Essential Crewneck Tee (product_id=7) twice and added to cart once within 3-minute window. Total of 3 repeated actions for same product qualifies for HIGH intent per >=2 threshold requirement."
   }
 ]
