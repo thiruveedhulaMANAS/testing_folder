@@ -1,4 +1,6 @@
 id,email,full_name,phone_number,role,created_at
-5cd22d45-4bc9-4d69-acc9-23b9dec54ae8,demo@shop.local,Demo Shopper,+1-555-010-1234,user,2026-08-31 09:55:21.830658+00:00
-6c197d23-dc0e-4a81-9694-061b623d1c28,admin@northline.shop,Platform Administrator,+1-555-010-9999,admin,2026-08-31 09:55:21.857366+00:00
-b91078ae-8332-4521-95f6-694ff9d2ab16,aarthyjogi26@gmail.com,Aarthy,8825647659,user,2026-08-31 09:57:03.118005+00:00
+bd0aa5aa-0aa4-4e99-80b3-051238b77794,demo@shop.local,Demo Shopper,+1-555-010-1234,user,2026-08-30 21:03:48.233216+00:00
+8f357db5-f672-44fd-a66a-404eec0754b4,admin@northline.shop,Platform Administrator,+1-555-010-9999,admin,2026-08-30 21:03:48.247413+00:00
+b07ebee4-07f9-4ad3-aa3a-8a49b1e81011,test@test.com,test,+91 1111111111,user,2026-08-30 21:04:47.103871+00:00
+039f72de-f8df-497e-a0d1-44b64821a38a,naniindia20207@gmail.com,test2,+91 1111111111,user,2026-08-31 02:04:23.060791+00:00
+43a1e328-4646-4964-8f9d-4e58449328fa,manasthiruveedhula@gmail.com,manas,+91234235422,user,2026-08-31 11:44:09.212285+00:00
