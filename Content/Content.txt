@@ -1,49 +1,50 @@
-[
-  {
-    "customer_id": "bd0aa5aa-0aa4-4e99-80b3-051238b77794",
-    "email": null,
-    "whatsapp": null,
-    "push": null,
-    "status": "BLOCKED",
-    "reason": "Insufficient behavioral data - no offer generated"
+{
+  "customer_id": "8f357db5-f672-44fd-a66a-404eec0754b4",
+  "email": {
+    "email_address": "admin@northline.shop",
+    "subject": "Complete your Apple experience with AirPods Pro",
+    "body": "Dear Platform Administrator,\n\nGet Apple AirPods Pro (2nd Gen) at an exclusive 10% discount. Seamlessly pairs with iPhone 15 Pro Max. Save $51.90 - now just $197.10.\n\nOffer expires in 48 hours.\n\nShop Now,\nPlatform Administrator\n\nUnsubscribe here."
   },
-  {
-    "customer_id": "8f357db5-f672-44fd-a66a-404eec0754b4",
-    "email": {
-      "email_address": "admin@northline.shop",
-      "subject": "Complete your Apple ecosystem – AirPods Pro at 10% off",
-      "body": "Dear Platform Administrator,\n\nWe noticed you viewed the iPhone 15 Pro Max. Enhance your Apple experience with AirPods Pro (2nd Gen) featuring Adaptive Audio and active noise cancellation. Now $197.10 (save $51.90).\n\nOffer expires in 48 hours.\n\nShop now.\n\nThanks,\nPlatform Administrator\n\nUnsubscribe here."
-    },
-    "whatsapp": null,
-    "push": {
-      "title": "AirPods Pro 10% off – $197.10",
-      "content": "Pairs perfectly with iPhone. Adaptive Audio + noise cancellation. 48hrs only. Unsubscribe here."
-    }
+  "whatsapp": {
+    "phone_number": "+1-555-010-9999",
+    "message": "Hi Platform Administrator! Apple AirPods Pro (2nd Gen) at 10% off - $197.10. Pairs perfectly with iPhone. 48 hours only. Reply STOP to unsubscribe."
   },
-  {
-    "customer_id": "b07ebee4-07f9-4ad3-aa3a-8a49b1e81011",
-    "email": {
-      "email_address": "test@test.com",
-      "subject": "Complete your look – Fleece hoodie 12% off",
-      "body": "Dear test,\n\nLove your Essential Crewneck Tee? Complete your look with our Fleece Pullover Hoodie at 12% off. Perfect for layering. Now $38.72 (save $16.28).\n\nOffer valid for 72 hours. Free shipping on orders over $50 (add one more item).\n\nShop now.\n\nThanks,\ntest\n\nUnsubscribe here."
-    },
-    "whatsapp": {
-      "phone_number": "+91 1111111111",
-      "message": "Hi test! Love your Essential Crewneck Tee? Complete your look with Fleece Pullover Hoodie at 12% off – $38.72 (save $16.28). 72hrs only. Reply STOP to unsubscribe."
-    },
-    "push": null
-  },
-  {
-    "customer_id": "039f72de-f8df-497e-a0d1-44b64821a38a",
-    "email": {
-      "email_address": "naniindia20207@gmail.com",
-      "subject": "Your iPhone SE is waiting – save $47.52 for 48 hours",
-      "body": "Dear test2,\n\nYou have iPhone SE (3rd Gen) in your cart. Complete your Apple setup with AirPods Pro (2nd Gen) at 8% off. Adaptive Audio and seamless pairing. Now $201.48 (save $47.52).\n\nOffer expires in 48 hours.\n\nAdd to cart and checkout.\n\nThanks,\ntest2\n\nUnsubscribe here."
-    },
-    "whatsapp": null,
-    "push": {
-      "title": "iPhone SE in cart + AirPods Pro 8% off",
-      "content": "Complete your Apple setup. AirPods Pro $201.48 (save $47.52). 48hrs only. Unsubscribe here."
-    }
+  "push": {
+    "title": "AirPods Pro 10% off - $197.10",
+    "content": "Complete your Apple setup. Seamlessly pairs with iPhone. Limited time - 48 hours. Unsubscribe here."
   }
-]
+}
+
+{
+  "customer_id": "b07ebee4-07f9-4ad3-aa3a-8a49b1e81011",
+  "email": {
+    "email_address": "test@test.com",
+    "subject": "Love your tee? Complete the look with our hoodie",
+    "body": "Dear test,\n\nLove your Essential Crewneck Tee? Complete your look with our Fleece Pullover Hoodie at 12% off. Perfect for layering. Save $16.28 - now just $38.72.\n\nFree shipping on orders over $50 (add one more item). Offer expires in 72 hours.\n\nShop Now,\ntest\n\nUnsubscribe here."
+  },
+  "whatsapp": {
+    "phone_number": "+91 1111111111",
+    "message": "Hi test! Love your Essential Crewneck Tee? Complete your look with Fleece Pullover Hoodie at 12% off - $38.72. 72 hours only. Reply STOP to unsubscribe."
+  },
+  "push": {
+    "title": "Fleece Hoodie 12% off - $38.72",
+    "content": "Perfect complement to your Essential Crewneck Tee. Limited time - 72 hours. Unsubscribe here."
+  }
+}
+
+{
+  "customer_id": "039f72de-f8df-497e-a0d1-44b64821a38a",
+  "email": {
+    "email_address": "naniindia20207@gmail.com",
+    "subject": "Complete your cart with AirPods Pro at 8% off",
+    "body": "Dear test2,\n\nYou have iPhone SE (3rd Gen) in your cart. Complete your Apple setup with AirPods Pro (2nd Gen) at 8% off. Adaptive Audio and seamless pairing. Save $47.52 - now just $201.48.\n\nBundle and save. Offer expires in 48 hours.\n\nShop Now,\ntest2\n\nUnsubscribe here."
+  },
+  "whatsapp": {
+    "phone_number": "+91 1111111111",
+    "message": "Hi test2! iPhone SE in your cart? Add AirPods Pro (2nd Gen) at 8% off - $201.48. Seamless pairing. 48 hours only. Reply STOP to unsubscribe."
+  },
+  "push": {
+    "title": "AirPods Pro 8% off - $201.48",
+    "content": "Perfect for your iPhone SE. Adaptive Audio and seamless pairing. Limited time - 48 hours. Unsubscribe here."
+  }
+}
