@@ -1,68 +1,63 @@
 [
   {
-    "customer_id": "bd0aa5aa-0aa4-4e99-80b3-051238b77794",
-    "processed_at": "2026-08-31T12:00:00Z",
+    "customer_id": "5cd22d45-4bc9-4d69-acc9-23b9dec54ae8",
+    "processed_at": "2024-01-15T10:45:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv -> audit_logs_product_views.csv -> Intent Analysis Pipeline",
-    "pii_redacted": ["email", "full_name", "phone_number"],
-    "encryption_status": "AES-256",
-    "activity_summary": {
-      "total_views": 0,
-      "total_cart_actions": 0,
-      "total_purchases": 0,
-      "recent_activity_count": 0
-    },
-    "intent_scoring_logic": "No behavioral signals available; assigned LOW intent per thin-data policy",
-    "compliance_flags": ["FUTURE_DATED_SIGNUP"]
+    "data_lineage": "customer_360.csv|audit_logs_product_views.csv",
+    "pii_redacted": ["email", "phone_number", "full_name"],
+    "encryption_status": "AES-256 in transit (HTTPS/TLS 1.2+)",
+    "compliance_standards": ["SOC2", "ISO27001", "GDPR"],
+    "intent_scoring_method": "repeated_behavior_analysis",
+    "activity_count": 0,
+    "data_quality_flags": []
   },
   {
-    "customer_id": "8f357db5-f672-44fd-a66a-404eec0754b4",
-    "processed_at": "2026-08-31T12:00:01Z",
+    "customer_id": "6c197d23-dc0e-4a81-9694-061b623d1c28",
+    "processed_at": "2024-01-15T10:45:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv -> audit_logs_product_views.csv -> Intent Analysis Pipeline",
-    "pii_redacted": ["email", "full_name", "phone_number"],
-    "encryption_status": "AES-256",
-    "activity_summary": {
-      "total_views": 1,
-      "total_cart_actions": 0,
-      "total_purchases": 0,
-      "recent_activity_count": 1
-    },
-    "intent_scoring_logic": "Single product view detected; insufficient repeated behavior for HIGH intent (requires ≥2 actions on same product)",
-    "compliance_flags": ["FUTURE_DATED_SIGNUP"]
+    "data_lineage": "customer_360.csv|audit_logs_product_views.csv",
+    "pii_redacted": ["email", "phone_number", "full_name"],
+    "encryption_status": "AES-256 in transit (HTTPS/TLS 1.2+)",
+    "compliance_standards": ["SOC2", "ISO27001", "GDPR"],
+    "intent_scoring_method": "repeated_behavior_analysis",
+    "activity_count": 0,
+    "data_quality_flags": []
   },
   {
-    "customer_id": "b07ebee4-07f9-4ad3-aa3a-8a49b1e81011",
-    "processed_at": "2026-08-31T12:00:02Z",
+    "customer_id": "b91078ae-8332-4521-95f6-694ff9d2ab16",
+    "processed_at": "2024-01-15T10:45:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv -> audit_logs_product_views.csv -> carts.csv -> Intent Analysis Pipeline",
-    "pii_redacted": ["email", "full_name", "phone_number"],
-    "encryption_status": "AES-256",
-    "activity_summary": {
-      "total_views": 3,
-      "total_cart_actions": 1,
-      "total_purchases": 1,
-      "recent_activity_count": 4,
-      "repeated_product_engagement": "Essential Crewneck Tee (view + add_to_cart)"
+    "data_lineage": "customer_360.csv|audit_logs_product_views.csv|carts.csv",
+    "pii_redacted": ["email", "phone_number", "full_name"],
+    "encryption_status": "AES-256 in transit (HTTPS/TLS 1.2+)",
+    "compliance_standards": ["SOC2", "ISO27001", "GDPR"],
+    "intent_scoring_method": "repeated_behavior_analysis",
+    "activity_count": 7,
+    "repeated_actions_detected": {
+      "Nike Air Force 1 '07": {
+        "product_id": 21,
+        "events": ["PRODUCT_VIEW", "ADD_TO_CART", "ADD_TO_CART", "UPDATE_CART"],
+        "event_count": 4,
+        "first_event": "2026-08-31T09:57:27.406145+00:00",
+        "last_event": "2026-08-31T09:57:55.368369+00:00"
+      },
+      "Google Pixel 8 Pro 128GB": {
+        "product_id": 3,
+        "events": ["PRODUCT_VIEW"],
+        "event_count": 1,
+        "first_event": "2026-08-31T09:58:44.053231+00:00",
+        "last_event": "2026-08-31T09:58:44.053231+00:00"
+      },
+      "Apple AirPods Pro (2nd Gen)": {
+        "product_id": 17,
+        "events": ["ADD_TO_CART", "REMOVE_FROM_CART"],
+        "event_count": 2,
+        "first_event": "2026-08-31T09:59:02.712654+00:00",
+        "last_event": "2026-08-31T09:59:49.202787+00:00"
+      }
     },
-    "intent_scoring_logic": "HIGH intent assigned: 2+ actions detected on Essential Crewneck Tee (product_id 7) - view at 2026-08-30T21:04:53Z + add_to_cart at 2026-08-30T21:04:54Z. Purchase history excluded from intent scoring per requirements.",
-    "compliance_flags": ["FUTURE_DATED_SIGNUP", "FUTURE_DATED_ORDER"]
-  },
-  {
-    "customer_id": "039f72de-f8df-497e-a0d1-44b64821a38a",
-    "processed_at": "2026-08-31T12:00:03Z",
-    "consent_status": "active",
-    "data_lineage": "customer_360.csv -> audit_logs_product_views.csv -> carts.csv -> Intent Analysis Pipeline",
-    "pii_redacted": ["email", "full_name", "phone_number"],
-    "encryption_status": "AES-256",
-    "activity_summary": {
-      "total_views": 3,
-      "total_cart_actions": 1,
-      "total_purchases": 0,
-      "recent_activity_count": 4,
-      "repeated_product_engagement": "iPhone SE (3rd Gen) 128GB (view + add_to_cart)"
-    },
-    "intent_scoring_logic": "HIGH intent assigned: 2+ actions detected on iPhone SE (3rd Gen) 128GB (product_id 4) - view at 2026-08-31T02:04:31Z + add_to_cart at 2026-08-31T02:04:35Z. Strong purchase intent signal.",
-    "compliance_flags": ["FUTURE_DATED_SIGNUP"]
+    "data_quality_flags": ["FUTURE_DATED_TIMESTAMPS"],
+    "purchase_history_excluded": true,
+    "high_intent_justification": "Customer b91078ae exhibited 4 repeated actions for Nike Air Force 1 '07 (product_id: 21) including PRODUCT_VIEW, ADD_TO_CART (2x), and UPDATE_CART within a 28-second window. This repeated engagement pattern meets the threshold for HIGH intent (≥2 actions for same item). Purchase history (completed order for Nike Air Force 1 '07) was excluded from intent scoring per requirements."
   }
 ]
