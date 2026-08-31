@@ -1,26 +1,26 @@
-{
-  "customer_id": "039f72de-f8df-497e-a0d1-44b64821a38a",
-  "email": {
-    "email_address": "naniindia20207@gmail.com",
-    "subject": "Save 15% on Samsung Galaxy S24 Ultra – 48 hours only",
-    "body": "Dear test2,\n\nSince you've been exploring premium smartphones like the iPhone SE and Pixel 8 Pro, we wanted to make your next upgrade easier. Get 15% off the Samsung Galaxy S24 Ultra 512GB – featuring Snapdragon 8 Gen 3, a 200MP camera, and titanium frame – now just $1019.15.\n\nThis exclusive offer expires September 2, 2026.\n\nShop Now\n\nThanks,\ntest2\n\nUnsubscribe here."
+[
+  {
+    "customer_id": "039f72de-f8df-497e-a0d1-44b64821a38a",
+    "email": {
+      "email_address": "naniindia20207@gmail.com",
+      "subject": "Your Samsung Galaxy S24 Ultra awaits — save 15%",
+      "body": "Dear test2,\n\nSince you've been exploring premium smartphones like the iPhone SE and Pixel 8 Pro, we thought you'd appreciate this exclusive offer on the Samsung Galaxy S24 Ultra 512GB. Enjoy 15% off, bringing your price to just $1019.15 (originally $1199.00).\n\nThis flagship device delivers cutting-edge performance and innovation — perfect for the premium features you've been considering. This offer expires in 48 hours on September 2, 2026.\n\nView Offer\n\nWarm regards,\nThe Northline Team\n\nUnsubscribe here.\nNorthline Shop | 123 Commerce Street, San Francisco, CA 94102"
+    }
+  },
+  {
+    "customer_id": "43a1e328-4646-4964-8f9d-4e58449328fa",
+    "email": {
+      "email_address": "manasthiruveedhula@gmail.com",
+      "subject": "We miss you — 10% off Nike Air Force 1 inside",
+      "body": "Dear manas,\n\nWe noticed you've been eyeing the Converse Chuck Taylor All Star — and we wanted to offer you something special. The Nike Air Force 1 '07 is now available at 10% off, just $103.50 (originally $115.00).\n\nThis iconic sneaker complements your style perfectly. As a valued customer with a premium taste, we're extending this exclusive 72-hour offer through September 3, 2026.\n\nClaim Discount\n\nWelcome back,\nThe Northline Team\n\nUnsubscribe here.\nNorthline Shop | 123 Commerce Street, San Francisco, CA 94102"
+    }
+  },
+  {
+    "customer_id": "b07ebee4-07f9-4ad3-aa3a-8a49b1e81011",
+    "email": {
+      "email_address": "test@test.com",
+      "subject": "Complete your tech collection — 12% off AirPods Pro",
+      "body": "Dear test,\n\nThank you for your recent purchase of the Essential Crewneck Tee. We noticed you've also been browsing premium audio — and we have the perfect addition for you.\n\nGet 12% off Apple AirPods Pro (2nd Gen), now just $192.72 (originally $219.00). Experience adaptive noise cancellation and premium sound quality. This 48-hour offer expires September 2, 2026.\n\nShop Now\n\nBest regards,\nThe Northline Team\n\nUnsubscribe here.\nNorthline Shop | 123 Commerce Street, San Francisco, CA 94102"
+    }
   }
-}
-
-{
-  "customer_id": "43a1e328-4646-4964-8f9d-4e58449328fa",
-  "email": {
-    "email_address": "manasthiruveedhula@gmail.com",
-    "subject": "We miss you – 10% off Nike Air Force 1 just for you",
-    "body": "Dear manas,\n\nYou've been eyeing the Converse Chuck Taylor, so we thought you'd love this: get 10% off the iconic Nike Air Force 1 '07 in classic white leather. Just $103.50 for the next 72 hours.\n\nWelcome back – we're glad to have you.\n\nClaim Your Offer\n\nThanks,\nmanas\n\nUnsubscribe here."
-  }
-}
-
-{
-  "customer_id": "b07ebee4-07f9-4ad3-aa3a-8a49b1e81011",
-  "email": {
-    "email_address": "test@test.com",
-    "subject": "Complete your collection: 12% off AirPods Pro",
-    "body": "Dear test,\n\nSince you viewed the Apple AirPods Pro (2nd Gen), we wanted to help you complete your tech setup. Enjoy 12% off – now $192.72 – with adaptive audio and active noise cancellation. Offer ends September 2, 2026.\n\nUpgrade Your Audio\n\nThanks,\ntest\n\nUnsubscribe here."
-  }
-}
+]
