@@ -1,12 +1,55 @@
 {
+  "customer_id": "bd0aa5aa-0aa4-4e99-80b3-051238b77794",
+  "email": {
+    "email_address": "demo@shop.local",
+    "subject": "Welcome - exclusive 12% off Apple AirPods Pro",
+    "body": "Dear Demo Shopper,\n\nWelcome! Start your journey with premium audio. Get Apple AirPods Pro (2nd Gen) with adaptive audio and active noise cancellation for just $219 (12% off regular $249).\n\nOffer expires in 72 hours.\n\nThanks,\nDemo Shopper\n\nUnsubscribe here.\n\nNorthline Shop\n123 Commerce Street, San Francisco, CA 94102"
+  },
+  "push": {
+    "title": "Welcome offer: 12% off Apple AirPods Pro",
+    "content": "$219 (was $249). Limited time. Unsubscribe here."
+  }
+}
+
+{
+  "customer_id": "8f357db5-f672-44fd-a66a-404eec0754b4",
+  "email": {
+    "email_address": "admin@northline.shop",
+    "subject": "You viewed iPhone 15 Pro Max - exclusive 8% off ends soon",
+    "body": "Dear Platform Administrator,\n\nWe noticed you checked out the iPhone 15 Pro Max 256GB. It's still available at $1,099 (8% off, save $100). Titanium design, A17 Pro chip, 5x telephoto camera. Rated 4.8/5 by 2,140 customers.\n\nOffer expires in 48 hours.\n\nThanks,\nPlatform Administrator\n\nUnsubscribe here.\n\nNorthline Shop\n123 Commerce Street, San Francisco, CA 94102"
+  },
+  "whatsapp": {
+    "phone_number": "+1-555-010-9999",
+    "message": "Hi Platform Administrator! iPhone 15 Pro Max 256GB you viewed is now $1,099 (8% off). Save $100 - offer ends in 48 hours. Shop now: [link]. Reply STOP to unsubscribe."
+  }
+}
+
+{
   "customer_id": "b07ebee4-07f9-4ad3-aa3a-8a49b1e81011",
   "email": {
     "email_address": "test@test.com",
-    "subject": "Complete your wardrobe with 20% off",
-    "body": "Dear test,\n\nWe noticed you loved the Essential Crewneck Tee. Complete your wardrobe with the Fleece Pullover Hoodie - a perfect match for your style.\n\nGet 20% off now - just $35.20 (regular $55.00). This offer is valid for 48 hours only.\n\nShop now and save.\n\nThanks,\ntest\n\nUnsubscribe here."
+    "subject": "Thanks for your order - 15% off Apple AirPods Pro",
+    "body": "Dear test,\n\nThanks for purchasing the Essential Crewneck Tee! We noticed you viewed Apple AirPods Pro. Perfect for your active lifestyle - now 15% off at $211.65 (save $37.35 from $249). Adaptive audio, noise cancellation. Rated 4.7/5.\n\nOffer expires in 48 hours.\n\nThanks,\ntest\n\nUnsubscribe here.\n\nNorthline Shop\n123 Commerce Street, San Francisco, CA 94102"
   },
   "push": {
-    "title": "20% off Fleece Pullover Hoodie",
-    "content": "Complete your wardrobe. Get the Fleece Pullover Hoodie for $35.20. Offer valid for 48 hours. Unsubscribe here."
+    "title": "Post-purchase special: 15% off AirPods Pro",
+    "content": "$211.65. Pairs perfectly with your new tee. Unsubscribe here."
+  }
+}
+
+{
+  "customer_id": "039f72de-f8df-497e-a0d1-44b64821a38a",
+  "email": {
+    "email_address": "naniindia20207@gmail.com",
+    "subject": "Complete your cart - iPhone SE + AirPods Pro bundle 15% off",
+    "body": "Dear test2,\n\nYou left iPhone SE (3rd Gen) 128GB in your cart ($379). Complete the Apple ecosystem - add AirPods Pro for just $211.65 (15% off, save $37.35). Total bundle: $590.65. Seamless pairing, premium audio.\n\nOffer expires in 24 hours.\n\nThanks,\ntest2\n\nUnsubscribe here.\n\nNorthline Shop\n123 Commerce Street, San Francisco, CA 94102"
+  },
+  "whatsapp": {
+    "phone_number": "+91 1111111111",
+    "message": "Hi test2! Your iPhone SE ($379) is waiting. Add AirPods Pro for 15% off ($211.65). Bundle total: $590.65. Offer ends in 24 hours. Complete purchase: [link]. Reply STOP to unsubscribe."
+  },
+  "push": {
+    "title": "Cart alert: iPhone SE + AirPods Pro bundle",
+    "content": "Save $37.35 (15% off). 24 hours only. Unsubscribe here."
   }
 }
