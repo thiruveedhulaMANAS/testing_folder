@@ -1,38 +1,52 @@
 [
   {
     "customer_id": "bd0aa5aa-0aa4-4e99-80b3-051238b77794",
-    "processed_at": "2026-08-30T21:10:00Z",
+    "processed_at": "2026-08-31T02:30:00.000000Z",
     "consent_status": "active",
     "data_lineage": "customer_360.csv->audit_logs_product_views.csv->carts.csv->Intent.csv",
     "pii_redacted": ["email", "full_name", "phone_number"],
-    "encryption_method": "AES-256",
+    "encryption_standard": "AES-256",
     "compliance_flags": ["FUTURE_DATED"],
-    "intent_score": 0,
-    "activity_count": 0
+    "intent_scoring_method": "repeated_behavior_analysis",
+    "activity_count": 0,
+    "repeated_actions": 0
   },
   {
     "customer_id": "8f357db5-f672-44fd-a66a-404eec0754b4",
-    "processed_at": "2026-08-30T21:10:00Z",
+    "processed_at": "2026-08-31T02:30:00.000000Z",
     "consent_status": "active",
     "data_lineage": "customer_360.csv->audit_logs_product_views.csv->carts.csv->Intent.csv",
     "pii_redacted": ["email", "full_name", "phone_number"],
-    "encryption_method": "AES-256",
-    "compliance_flags": ["FUTURE_DATED", "ADMIN_ROLE"],
-    "intent_score": 0,
-    "activity_count": 0
+    "encryption_standard": "AES-256",
+    "compliance_flags": ["FUTURE_DATED"],
+    "intent_scoring_method": "repeated_behavior_analysis",
+    "activity_count": 1,
+    "repeated_actions": 0
   },
   {
     "customer_id": "b07ebee4-07f9-4ad3-aa3a-8a49b1e81011",
-    "processed_at": "2026-08-30T21:10:00Z",
+    "processed_at": "2026-08-31T02:30:00.000000Z",
+    "consent_status": "active",
+    "data_lineage": "customer_360.csv->audit_logs_product_views.csv->carts.csv->order_items.csv->Intent.csv",
+    "pii_redacted": ["email", "full_name", "phone_number"],
+    "encryption_standard": "AES-256",
+    "compliance_flags": ["FUTURE_DATED"],
+    "intent_scoring_method": "repeated_behavior_analysis",
+    "activity_count": 3,
+    "repeated_actions": 3,
+    "high_intent_justification": "Customer viewed product (Essential Crewneck Tee), added to cart, and completed purchase - 3 repeated actions for same product within 4 seconds, demonstrating clear purchase intent"
+  },
+  {
+    "customer_id": "039f72de-f8df-497e-a0d1-44b64821a38a",
+    "processed_at": "2026-08-31T02:30:00.000000Z",
     "consent_status": "active",
     "data_lineage": "customer_360.csv->audit_logs_product_views.csv->carts.csv->Intent.csv",
     "pii_redacted": ["email", "full_name", "phone_number"],
-    "encryption_method": "AES-256",
+    "encryption_standard": "AES-256",
     "compliance_flags": ["FUTURE_DATED"],
-    "intent_score": 100,
-    "activity_count": 5,
-    "high_intent_justification": "Customer viewed Essential Crewneck Tee (product_id=7) at 2026-08-30T21:04:53.747673+00:00, then added to cart at 2026-08-30T21:04:54.698755+00:00 within 1 second. Two distinct actions (view + add_to_cart) on same product qualifies as repeated engagement per HIGH intent criteria (>=2 actions).",
-    "excluded_from_intent": ["purchase_history"],
-    "regulatory_compliance": ["SOC2", "ISO27001", "GDPR"]
+    "intent_scoring_method": "repeated_behavior_analysis",
+    "activity_count": 2,
+    "repeated_actions": 2,
+    "high_intent_justification": "Customer viewed iPhone SE (3rd Gen) 128GB and added to cart - 2 repeated actions for same product, meeting HIGH intent threshold per enterprise requirements"
   }
 ]
