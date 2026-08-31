@@ -19,3 +19,6 @@ customer_id,source_file,parent_key,reason
 ,audit_logs_product_views.csv,227,MISSING_USER_ID
 ,audit_logs_product_views.csv,241,MISSING_USER_ID
 ,audit_logs_product_views.csv,249,MISSING_USER_ID
+,audit_logs_product_views.csv,278,MISSING_USER_ID
+,audit_logs_product_views.csv,282,MISSING_USER_ID
+,audit_logs_product_views.csv,289,MISSING_USER_ID
