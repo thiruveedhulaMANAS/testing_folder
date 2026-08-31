@@ -1,2 +1,4 @@
 id,order_id,product_id,product_name,unit_price,quantity,line_total
-1,2b2e4a90-5dcf-4fbb-ac2c-22fc3cb6c3cd,21,Nike Air Force 1 '07,115.0,1,115.0
+1,c66b7d20-855d-44db-9e39-afce0de6e8fc,7,Essential Crewneck Tee,24.0,1,24.0
+2,8a38278f-b8d6-40e6-91cd-8d5a6ef7e62e,3,Google Pixel 8 Pro 128GB,999.0,1,999.0
+3,b24b1d68-e6b2-4ff2-9701-39837b09e9cb,15,HP Spectre x360 13 2-in-1,1449.0,1,1449.0
