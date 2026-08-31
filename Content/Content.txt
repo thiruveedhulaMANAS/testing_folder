@@ -3,15 +3,7 @@
   "email": {
     "email_address": "admin@northline.shop",
     "subject": "Complete your Apple experience with AirPods Pro",
-    "body": "Dear Platform Administrator,\n\nGet Apple AirPods Pro (2nd Gen) at an exclusive 10% discount. Seamlessly pairs with iPhone 15 Pro Max. Save $51.90 - now just $197.10.\n\nOffer expires in 48 hours.\n\nShop Now,\nPlatform Administrator\n\nUnsubscribe here."
-  },
-  "whatsapp": {
-    "phone_number": "+1-555-010-9999",
-    "message": "Hi Platform Administrator! Apple AirPods Pro (2nd Gen) at 10% off - $197.10. Pairs perfectly with iPhone. 48 hours only. Reply STOP to unsubscribe."
-  },
-  "push": {
-    "title": "AirPods Pro 10% off - $197.10",
-    "content": "Complete your Apple setup. Seamlessly pairs with iPhone. Limited time - 48 hours. Unsubscribe here."
+    "body": "Dear Platform Administrator,\n\nSince you've been exploring the iPhone 15 Pro Max, we thought you'd love to complete your Apple ecosystem with the AirPods Pro (2nd Gen). Enjoy an exclusive 10% discount, bringing the price from $219.00 to just $197.10 — that's $51.90 in total savings off the original $249.00.\n\nSeamlessly pairs with your iPhone. Adaptive Audio technology. Limited time offer — expires in 48 hours.\n\nShop Now\n\nThanks,\nPlatform Administrator\n\nUnsubscribe here."
   }
 }
 
@@ -19,16 +11,8 @@
   "customer_id": "b07ebee4-07f9-4ad3-aa3a-8a49b1e81011",
   "email": {
     "email_address": "test@test.com",
-    "subject": "Love your tee? Complete the look with our hoodie",
-    "body": "Dear test,\n\nLove your Essential Crewneck Tee? Complete your look with our Fleece Pullover Hoodie at 12% off. Perfect for layering. Save $16.28 - now just $38.72.\n\nFree shipping on orders over $50 (add one more item). Offer expires in 72 hours.\n\nShop Now,\ntest\n\nUnsubscribe here."
-  },
-  "whatsapp": {
-    "phone_number": "+91 1111111111",
-    "message": "Hi test! Love your Essential Crewneck Tee? Complete your look with Fleece Pullover Hoodie at 12% off - $38.72. 72 hours only. Reply STOP to unsubscribe."
-  },
-  "push": {
-    "title": "Fleece Hoodie 12% off - $38.72",
-    "content": "Perfect complement to your Essential Crewneck Tee. Limited time - 72 hours. Unsubscribe here."
+    "subject": "Love your tee? Complete the look with 12% off",
+    "body": "Dear test,\n\nSince you recently picked up the Essential Crewneck Tee, we wanted to help you complete your wardrobe. The Fleece Pullover Hoodie is perfect for layering — and right now, you can enjoy 12% off, bringing it from $44.00 to just $38.72. That's $16.28 in total savings off the original $55.00.\n\nPerfect for layering. Limited time — expires in 72 hours. Plus, add one more item to unlock free shipping on orders over $50.\n\nView Offer\n\nThanks,\ntest\n\nUnsubscribe here."
   }
 }
 
@@ -36,15 +20,7 @@
   "customer_id": "039f72de-f8df-497e-a0d1-44b64821a38a",
   "email": {
     "email_address": "naniindia20207@gmail.com",
-    "subject": "Complete your cart with AirPods Pro at 8% off",
-    "body": "Dear test2,\n\nYou have iPhone SE (3rd Gen) in your cart. Complete your Apple setup with AirPods Pro (2nd Gen) at 8% off. Adaptive Audio and seamless pairing. Save $47.52 - now just $201.48.\n\nBundle and save. Offer expires in 48 hours.\n\nShop Now,\ntest2\n\nUnsubscribe here."
-  },
-  "whatsapp": {
-    "phone_number": "+91 1111111111",
-    "message": "Hi test2! iPhone SE in your cart? Add AirPods Pro (2nd Gen) at 8% off - $201.48. Seamless pairing. 48 hours only. Reply STOP to unsubscribe."
-  },
-  "push": {
-    "title": "AirPods Pro 8% off - $201.48",
-    "content": "Perfect for your iPhone SE. Adaptive Audio and seamless pairing. Limited time - 48 hours. Unsubscribe here."
+    "subject": "Your cart is waiting — add AirPods Pro and save 8%",
+    "body": "Dear test2,\n\nYou have the iPhone SE (3rd Gen) in your cart — why not complete your Apple setup? The AirPods Pro (2nd Gen) pairs seamlessly with your iPhone and features Adaptive Audio technology. Enjoy 8% off, bringing the price from $219.00 to just $201.48 — that's $47.52 in total savings off the original $249.00.\n\nBundle and save. Offer expires in 48 hours.\n\nClaim Discount\n\nThanks,\ntest2\n\nUnsubscribe here."
   }
 }
