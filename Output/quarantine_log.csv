@@ -1,4 +1,10 @@
 customer_id,source_file,parent_key,reason
-,audit_logs_product_views.csv,18,MISSING_FIELD
-,audit_logs_product_views.csv,25,MISSING_FIELD
-,audit_logs_product_views.csv,32,MISSING_FIELD
+,audit_logs_product_views.csv,18,MISSING_FIELD - user_id is null
+,audit_logs_product_views.csv,25,MISSING_FIELD - user_id is null
+,audit_logs_product_views.csv,32,MISSING_FIELD - user_id is null
+,audit_logs_product_views.csv,95,MISSING_FIELD - user_id is null
+,audit_logs_product_views.csv,106,MISSING_FIELD - user_id is null
+,audit_logs_product_views.csv,113,MISSING_FIELD - user_id is null
+,audit_logs_product_views.csv,121,MISSING_FIELD - user_id is null
+,audit_logs_product_views.csv,114,MISSING_FIELD - user_id is null
+039f72de-f8df-497e-a0d1-44b64821a38a,audit_logs_product_views.csv,110,DUPLICATE_ROW - duplicate view of product 1
