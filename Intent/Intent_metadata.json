@@ -1,49 +1,100 @@
 [
   {
     "customer_id": "039f72de-f8df-497e-a0d1-44b64821a38a",
-    "processed_at": "2026-08-31T12:00:00Z",
+    "processed_at": "2026-08-31T12:30:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv->audit_logs_product_views.csv->carts.csv",
-    "pii_redacted": true,
-    "encryption": "AES-256",
-    "compliance_flags": "SOC2,ISO27001,GDPR,CCPA"
+    "data_lineage": {
+      "source_files": ["Output/customer_360.csv", "database_export/audit_logs_product_views.csv", "database_export/carts.csv"],
+      "repository": "thiruveedhulaMANAS/testing_folder",
+      "branch": "main",
+      "processing_engine": "Intent Analytics Pipeline v1.0",
+      "compliance_standards": ["SOC2", "ISO27001", "GDPR"],
+      "encryption": "AES-256",
+      "pii_redacted": ["email", "phone_number", "full_name"],
+      "intent_scoring_criteria": "Repeated behavioral evidence (≥2 actions on same product)",
+      "activity_events_analyzed": 4,
+      "repeated_actions_detected": 3,
+      "intent_level_justification": "HIGH - 2 product views + 1 cart addition for iPhone SE (3rd Gen) 128GB"
+    }
   },
   {
     "customer_id": "43a1e328-4646-4964-8f9d-4e58449328fa",
-    "processed_at": "2026-08-31T12:00:00Z",
+    "processed_at": "2026-08-31T12:30:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv->audit_logs_product_views.csv->carts.csv",
-    "pii_redacted": true,
-    "encryption": "AES-256",
-    "compliance_flags": "SOC2,ISO27001,GDPR,CCPA"
+    "data_lineage": {
+      "source_files": ["Output/customer_360.csv", "database_export/audit_logs_product_views.csv", "database_export/carts.csv"],
+      "repository": "thiruveedhulaMANAS/testing_folder",
+      "branch": "main",
+      "processing_engine": "Intent Analytics Pipeline v1.0",
+      "compliance_standards": ["SOC2", "ISO27001", "GDPR"],
+      "encryption": "AES-256",
+      "pii_redacted": ["email", "phone_number", "full_name"],
+      "intent_scoring_criteria": "Repeated behavioral evidence (≥2 actions on same product)",
+      "activity_events_analyzed": 18,
+      "repeated_actions_detected": 4,
+      "intent_level_justification": "HIGH - 4 product views for Converse Chuck Taylor All Star (no purchase yet, indicating strong future purchase intent)",
+      "purchase_history_excluded": true,
+      "completed_purchases": ["Google Pixel 8 Pro 128GB", "HP Spectre x360 13 2-in-1"]
+    }
   },
   {
     "customer_id": "8f357db5-f672-44fd-a66a-404eec0754b4",
-    "processed_at": "2026-08-31T12:00:00Z",
+    "processed_at": "2026-08-31T12:30:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv->audit_logs_product_views.csv",
-    "pii_redacted": true,
-    "encryption": "AES-256",
-    "compliance_flags": "SOC2,ISO27001,GDPR,CCPA",
-    "data_quality_note": "Admin account - exclude from marketing"
+    "data_lineage": {
+      "source_files": ["Output/customer_360.csv", "database_export/audit_logs_product_views.csv", "database_export/carts.csv"],
+      "repository": "thiruveedhulaMANAS/testing_folder",
+      "branch": "main",
+      "processing_engine": "Intent Analytics Pipeline v1.0",
+      "compliance_standards": ["SOC2", "ISO27001", "GDPR"],
+      "encryption": "AES-256",
+      "pii_redacted": ["email", "phone_number", "full_name"],
+      "intent_scoring_criteria": "Repeated behavioral evidence (≥2 actions on same product)",
+      "activity_events_analyzed": 2,
+      "repeated_actions_detected": 0,
+      "intent_level_justification": "LOW - No repeated actions detected; single views on different products",
+      "role": "admin",
+      "data_quality_note": "Admin account with minimal engagement"
+    }
   },
   {
     "customer_id": "b07ebee4-07f9-4ad3-aa3a-8a49b1e81011",
-    "processed_at": "2026-08-31T12:00:00Z",
+    "processed_at": "2026-08-31T12:30:00Z",
     "consent_status": "active",
-    "data_lineage": "customer_360.csv->audit_logs_product_views.csv->carts.csv",
-    "pii_redacted": true,
-    "encryption": "AES-256",
-    "compliance_flags": "SOC2,ISO27001,GDPR,CCPA"
+    "data_lineage": {
+      "source_files": ["Output/customer_360.csv", "database_export/audit_logs_product_views.csv", "database_export/carts.csv"],
+      "repository": "thiruveedhulaMANAS/testing_folder",
+      "branch": "main",
+      "processing_engine": "Intent Analytics Pipeline v1.0",
+      "compliance_standards": ["SOC2", "ISO27001", "GDPR"],
+      "encryption": "AES-256",
+      "pii_redacted": ["email", "phone_number", "full_name"],
+      "intent_scoring_criteria": "Repeated behavioral evidence (≥2 actions on same product)",
+      "activity_events_analyzed": 5,
+      "repeated_actions_detected": 2,
+      "intent_level_justification": "MEDIUM - 2 actions (view + cart) for Essential Crewneck Tee, but already purchased; minimal recent activity post-purchase",
+      "purchase_history_excluded": true,
+      "completed_purchases": ["Essential Crewneck Tee"]
+    }
   },
   {
     "customer_id": "bd0aa5aa-0aa4-4e99-80b3-051238b77794",
-    "processed_at": "2026-08-31T12:00:00Z",
-    "consent_status": "active",
-    "data_lineage": "customer_360.csv",
-    "pii_redacted": true,
-    "encryption": "AES-256",
-    "compliance_flags": "SOC2,ISO27001,GDPR,CCPA",
-    "data_quality_note": "Demo account - exclude from marketing"
+    "processed_at": "2026-08-31T12:30:00Z",
+    "consent_status": "unknown",
+    "data_lineage": {
+      "source_files": ["Output/customer_360.csv", "database_export/audit_logs_product_views.csv", "database_export/carts.csv"],
+      "repository": "thiruveedhulaMANAS/testing_folder",
+      "branch": "main",
+      "processing_engine": "Intent Analytics Pipeline v1.0",
+      "compliance_standards": ["SOC2", "ISO27001", "GDPR"],
+      "encryption": "AES-256",
+      "pii_redacted": ["email", "phone_number", "full_name"],
+      "intent_scoring_criteria": "Repeated behavioral evidence (≥2 actions on same product)",
+      "activity_events_analyzed": 0,
+      "repeated_actions_detected": 0,
+      "intent_level_justification": "LOW - No behavioral data available",
+      "role": "user",
+      "data_quality_note": "Demo account with zero activity"
+    }
   }
 ]
