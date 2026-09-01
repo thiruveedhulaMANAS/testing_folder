@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Northline Shop</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#/">Northline</a>
+    <nav class="cats" id="categoryNav"></nav>
+    <div class="actions">
+      <input id="search" type="search" placeholder="Search products" />
+      <button id="cartBtn" type="button">Cart <span id="cartCount">0</span></button>
+      <span id="guestNav" class="auth-nav">
+        <a href="/login" class="ghost">Login</a>
+        <a href="/register" class="ghost">Register</a>
+      </span>
+      <span id="userNav" class="auth-nav" hidden>
+        <a id="adminLink" href="/admin" class="ghost" hidden>Admin</a>
+        <span id="userAvatar" class="avatar"></span>
+        <span id="userName" class="muted"></span>
+        <button id="logoutBtn" type="button" class="ghost">Logout</button>
+      </span>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

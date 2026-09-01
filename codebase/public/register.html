@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Create account · Northline Shop</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="/">Northline</a>
+  </header>
+
+  <div class="auth-wrap">
+    <div class="auth-card">
+      <a class="auth-back" href="/">&larr; Back to shop</a>
+      <h1>Create account</h1>
+      <p class="muted">Set up your account to start shopping.</p>
+
+      <form id="authForm" novalidate>
+        <label>Full name
+          <input name="fullName" autocomplete="name" required />
+          <span class="field-error" id="err-fullName" hidden></span>
+        </label>
+        <label>Email
+          <input name="email" type="email" autocomplete="email" required />
+          <span class="field-error" id="err-email" hidden></span>
+        </label>
+        <label>Phone number
+          <input name="phoneNumber" type="tel" autocomplete="tel" placeholder="+1 555 010 1234" required />
+          <span class="field-error" id="err-phoneNumber" hidden></span>
+        </label>
+        <label>Password
+          <input name="password" type="password" autocomplete="new-password" required />
+          <div class="strength-meter" id="strengthMeter" hidden>
+            <div class="strength-meter-bar"><span id="strengthBar"></span></div>
+            <span class="strength-label" id="strengthLabel"></span>
+          </div>
+          <span class="field-error" id="err-password" hidden></span>
+        </label>
+
+        <p class="error" id="authError" hidden></p>
+
+        <div class="row">
+          <button type="submit" id="authSubmit">Create account</button>
+        </div>
+      </form>
+
+      <p class="auth-switch">
+        <span>Already have an account?</span>
+        <a id="loginLink" href="/login">Sign in</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="/auth-validate.js"></script>
+  <script src="/register.js"></script>
+</body>
+</html>

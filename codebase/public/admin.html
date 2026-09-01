@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin · Northline Shop</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/admin.css" />
+</head>
+<body class="admin-body">
+  <div id="adminRoot" class="admin-shell" hidden>
+    <aside class="admin-sidebar">
+      <a class="brand" href="/">Northline</a>
+      <div class="admin-badge">Admin</div>
+      <nav class="admin-nav" id="adminNav">
+        <a href="#/users" data-tab="users">Users</a>
+        <a href="#/products" data-tab="products">Products</a>
+        <a href="#/orders" data-tab="orders">Orders</a>
+        <a href="#/marketing" data-tab="marketing">Marketing Automation</a>
+      </nav>
+      <div class="admin-sidebar-footer">
+        <span id="adminEmail" class="muted"></span>
+        <a href="/" class="ghost">Back to shop</a>
+        <button id="adminLogout" type="button" class="ghost">Logout</button>
+      </div>
+    </aside>
+    <main class="admin-main" id="adminMain"></main>
+  </div>
+
+  <div id="adminDenied" class="admin-denied" hidden>
+    <div class="admin-denied-card">
+      <h2>Admins only</h2>
+      <p id="adminDeniedMessage">You need an administrator account to view this page.</p>
+      <a class="ghost" href="/login?next=%2Fadmin">Go to login</a>
+    </div>
+  </div>
+
+  <script src="/admin.js"></script>
+</body>
+</html>

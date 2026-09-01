@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sign in · Northline Shop</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="/">Northline</a>
+  </header>
+
+  <div class="auth-wrap">
+    <div class="auth-card">
+      <a class="auth-back" href="/">&larr; Back to shop</a>
+      <h1>Sign in</h1>
+      <p class="muted">Enter your email and password to continue.</p>
+
+      <form id="authForm" novalidate>
+        <label>Email
+          <input name="email" type="email" autocomplete="email" required />
+          <span class="field-error" id="err-email" hidden></span>
+        </label>
+        <label>Password
+          <input name="password" type="password" autocomplete="current-password" required />
+          <span class="field-error" id="err-password" hidden></span>
+        </label>
+
+        <p class="error" id="authError" hidden></p>
+
+        <div class="row">
+          <button type="submit" id="authSubmit">Sign in</button>
+        </div>
+      </form>
+
+      <p class="auth-switch">
+        <span>New here?</span>
+        <a id="registerLink" href="/register">Create account</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="/auth-validate.js"></script>
+  <script src="/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+pandas
+SQLAlchemy
+psycopg2-binary
+PyGithub
+requests
+urllib3
+
+python-dotenv

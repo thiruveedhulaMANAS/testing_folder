@@ -1,0 +1,86 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: shop
+      POSTGRES_PASSWORD: shop_secret
+      POSTGRES_DB: ecommerce
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U shop -d ecommerce"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    ports:
+      - "6380:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "3080:3000"
+    environment:
+      PORT: 3000
+      NODE_ENV: production
+      DATABASE_URL: postgres://shop:shop_secret@db:5432/ecommerce
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: ${JWT_SECRET:-dev-only-change-in-production}
+      JWT_EXPIRES_IN: 7d
+      PYTHON_BIN: python3
+      MARKETING_SCRIPTS_DIR: /app/scripts/marketing
+      MARKETING_RUN_STATE_DIR: /tmp/marketing-runs
+      MARKETING_DATABASE_URI: ${MARKETING_DATABASE_URI_DOCKER:-postgresql+psycopg2://shop:shop_secret@db:5432/ecommerce}
+      GITHUB_PAT: ${GITHUB_PAT:-}
+      GITHUB_REPO_OWNER: ${GITHUB_REPO_OWNER:-}
+      GITHUB_REPO_NAME: ${GITHUB_REPO_NAME:-testing_folder}
+      AAVA_API_BASE: ${AAVA_API_BASE:-https://int-ai.aava.ai}
+      AAVA_REALM_ID: ${AAVA_REALM_ID:-79}
+      AAVA_BEARER_TOKEN: ${AAVA_BEARER_TOKEN:-}
+      AAVA_USER: ${AAVA_USER:-}
+      MARKETING_PIPELINE_ID: ${MARKETING_PIPELINE_ID:-21423}
+      APP_PASSWORD: ${APP_PASSWORD:-}
+      SENDER_EMAIL: ${SENDER_EMAIL:-}
+
+  # Background worker: drains the `audit-events` BullMQ queue and persists
+  # PAGE_VIEW / PRODUCT_VIEW impressions into Postgres, off the API's
+  # request/response path. Same image as `api`, different entrypoint.
+  audit-worker:
+    build: .
+    restart: unless-stopped
+    command: ["node", "src/workers/auditWorker.js"]
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgres://shop:shop_secret@db:5432/ecommerce
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: ${JWT_SECRET:-dev-only-change-in-production}
+      AUDIT_WORKER_CONCURRENCY: 5
+
+volumes:
+  postgres_data:
+  redis_data:

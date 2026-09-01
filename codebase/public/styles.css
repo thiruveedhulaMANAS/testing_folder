@@ -1,0 +1,224 @@
+:root {
+  --bg: #0f1412;
+  --panel: #18211d;
+  --line: #2a3b34;
+  --text: #e8f0ec;
+  --muted: #9bb0a6;
+  --accent: #7dcea0;
+  --warn: #e7b56c;
+  --danger: #e08b8b;
+}
+* { box-sizing: border-box; }
+
+/*
+ * Any element with a `hidden` attribute must actually disappear. Without
+ * this, a class like `.auth-nav { display: flex }` (author CSS) silently
+ * overrides the browser's built-in `[hidden] { display: none }` rule
+ * (user-agent CSS) regardless of selector specificity, because author
+ * rules always beat user-agent rules in the cascade. That's what made
+ * logout look like it didn't work: app.js was correctly setting
+ * userNav.hidden = true, but .auth-nav's own display:flex kept the
+ * logged-in header (avatar/name/Logout) visible anyway.
+ */
+[hidden] { display: none !important; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+a { color: inherit; text-decoration: none; }
+.top {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.9rem 1.4rem;
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  background: rgba(15, 20, 18, 0.92);
+  backdrop-filter: blur(8px);
+  z-index: 5;
+}
+.brand { font-weight: 700; letter-spacing: 0.04em; }
+.cats { display: flex; gap: 0.6rem; flex: 1; flex-wrap: wrap; }
+.cats a, .cats button, .ghost, button {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  cursor: pointer;
+}
+.cats a.active, button:not(.ghost) {
+  background: var(--accent);
+  color: #102018;
+  border-color: var(--accent);
+}
+.actions { display: flex; gap: 0.5rem; align-items: center; }
+.auth-nav { display: flex; align-items: center; gap: 0.5rem; }
+.avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #102018;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+#search {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 0.4rem 0.8rem;
+}
+main { padding: 1.4rem; max-width: 1100px; margin: 0 auto; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1rem;
+}
+.card, .detail, .panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.card img, .detail img { width: 100%; height: 160px; object-fit: cover; display: block; }
+.card .body, .detail, .panel { padding: 0.9rem; }
+.muted { color: var(--muted); font-size: 0.9rem; }
+.price { display: flex; gap: 0.5rem; align-items: baseline; }
+.old { text-decoration: line-through; color: var(--muted); }
+.sale { color: var(--warn); }
+.stock.out { color: var(--danger); }
+.row { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.8rem; }
+.cart-line {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 0.8rem;
+  align-items: center;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--line);
+}
+dialog {
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1.2rem;
+  width: min(420px, 92vw);
+}
+form label { display: block; margin: 0.6rem 0; }
+input:not([type="search"]) {
+  width: 100%;
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--text);
+}
+.error { color: var(--danger); }
+h1, h2 { margin-top: 0; }
+.filters {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0.8rem 0 1.2rem;
+  padding: 0.8rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.filters label { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.78rem; color: var(--muted); }
+.filters input, .filters select {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 0.35rem 0.5rem;
+  width: 8rem;
+}
+.filters .apply { align-self: flex-end; }
+.rating { color: var(--warn); font-size: 0.85rem; }
+.rating .count { color: var(--muted); }
+
+/* Standalone login/register page */
+.auth-wrap {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.4rem;
+}
+.auth-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1.6rem;
+  width: min(420px, 92vw);
+}
+.auth-card h1 { margin-top: 0; }
+.auth-back {
+  display: block;
+  margin-bottom: 1rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.auth-switch {
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.link-btn {
+  background: none;
+  border: none;
+  color: var(--accent);
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+  text-decoration: underline;
+}
+.auth-switch a { color: var(--accent); text-decoration: underline; }
+
+.field-error {
+  display: block;
+  color: var(--danger);
+  font-size: 0.78rem;
+  margin-top: 0.25rem;
+}
+input[aria-invalid="true"] { border-color: var(--danger); }
+
+.strength-meter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+}
+.strength-meter-bar {
+  flex: 1;
+  height: 5px;
+  border-radius: 999px;
+  background: var(--line);
+  overflow: hidden;
+}
+.strength-meter-bar span {
+  display: block;
+  height: 100%;
+  width: 0;
+  border-radius: 999px;
+  transition: width 0.15s ease, background 0.15s ease;
+  background: var(--danger);
+}
+.strength-meter-bar span[data-level="2"] { background: var(--warn); }
+.strength-meter-bar span[data-level="3"],
+.strength-meter-bar span[data-level="4"] { background: var(--accent); }
+.strength-label { color: var(--muted); font-size: 0.78rem; white-space: nowrap; }
